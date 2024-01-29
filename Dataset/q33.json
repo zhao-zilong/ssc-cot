@@ -1,0 +1,11 @@
+{
+  "question": "Find value of tan20 + tan40 + \\sqrt(3)tan20tan40.",
+  "intermediate-results": [
+    {"result": "tan60 = \\sqrt(3) = tan(20+40)", "step": 1, "score": 1, "branch": "None", "branch-level": "None"},
+    {"result": "tan(20+40) = (tan20+tan40)/(1-tan20tan40)", "step": 2, "score": 2, "branch": "None", "branch-level": "None"},
+    {"result": "\\sqrt(3) = (tan20+tan40)/(1-tan20tan40)", "step": 3, "score": 3, "branch": "None", "branch-level": "None"},
+    {"result": "\\sqrt(3) - \\sqrt(3)tan20tan40 = tan20+tan40", "step": 4, "score": 4, "branch": "None", "branch-level": "None"},
+    {"result": "tan20 + tan40 + \\sqrt(3)tan20tan40 = tan20 + tan40 + \\sqrt(3) - tan20 - tan40 = \\sqrt(3)", "step": 5, "score": 5, "branch": "None", "branch-level": "None"}
+  ],
+  "result": "\\sqrt(3)"
+}

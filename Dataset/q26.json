@@ -1,0 +1,14 @@
+{
+  "question": "Find the value of sin18. Give the reasoning details.",
+  "intermediate-results": [
+    {"result": "Let A = 18 degree, sin2A = cos(90 - 2A)", "step": 1, "score": 1, "branch": "None", "branch-level": "None"},
+    {"result": "cos(90 - 2A) = cos3A", "step": 2, "score": 2, "branch":  "None", "branch-level": "None"},
+    {"result": "sin2A = 2sinAcosA", "step": 3, "score": 3, "branch": 1, "branch-level": 1},
+    {"result": "cos3A = cos2AcosA - sin2AsinA", "step": 4, "score": 3, "branch": 2, "branch-level": 1},
+    {"result": "cos2AcosA - sin2AsinA = (1-2(sinA)^2)cosA - 2sinAcosAsinA", "step": 5, "score": 5, "branch": 2, "branch-level": 1},
+    {"result": "2sinA = (1-2(sinA)^2) - 2sinAsinA = 1 - 4(sinA)^2", "step": 6, "score": 6, "branch": "None", "branch-level": "None"},
+    {"result": "4(sinA)^2 + 2sinA - 1 = 0", "step": 7, "score": 7, "branch": "None", "branch-level": "None"},
+    {"result": "sinA = (\\sqrt(5) - 1)/4", "step": 8, "score": 8, "branch": "None", "branch-level": "None"}
+  ],
+  "result": "(\\sqrt(5) - 1)/4"
+}

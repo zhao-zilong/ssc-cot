@@ -1,0 +1,21 @@
+{
+  "question": "Simplify tan(100)+4sin(100)",
+  "original_form": "tan(100)+4sin(100)",
+  "intermediate-results": [
+    {"result": "tan(100) + 4sin(100) = (sin(100)+4sin(100)cos(100))/cos(100)", "step": 1, "score": 1, "branch": "None", "branch-level": "None"},
+    {"result": "tan(100) + 4sin(100) = (sin(100)+2sin(200))/cos(100)", "step": 2, "score": 2, "branch": "None", "branch-level": "None"},
+    {"result": "tan(100) + 4sin(100) = (sin(100)-2sin(20))/cos(100)", "step": 3, "score": 3, "branch": "None", "branch-level": "None"},
+    {"result": "tan(100) + 4sin(100) = (2sin(20)-cos(10))/(sin(10))", "step": 4, "score": 4, "branch": "None", "branch-level": "None"},
+    {"result": "tan(100) + 4sin(100) = (-\\sqrt(3)sin(10))/(sin(10))", "step": 5, "score": 5, "branch": "None", "branch-level": "None"},
+    {"result": "tan(100) + 4sin(100) = -\\sqrt(3)", "step": 6, "score": 6, "branch": "None", "branch-level": "None"}
+  ],
+  "intermediate-results_alternative": [
+    {"result": "tan(100) + 4sin(100) = -cot(10) + 4sin(100)", "step": 1, "score": 1, "branch": 1, "branch-level": 1},
+    {"result": "tan(100) + 4sin(100) = tan(100) + 4cos(10)", "step": 2, "score": 1, "branch": 2, "branch-level": 1},
+    {"result": "tan(100) + 4sin(100) = (4sin(10)cos(10)-cos(10))/sin(10)", "step": 3, "score": 3, "branch": "None", "branch-level": "None"},
+    {"result": "tan(100) + 4sin(100) = (2sin(20)-cos(10))/(sin(10)", "step": 4, "score": 4, "branch": "None", "branch-level": "None"},
+    {"result": "tan(100) + 4sin(100) = (-\\sqrt(3)sin10)/(sin10)", "step": 5, "score": 5, "branch": "None", "branch-level": "None"},
+    {"result": "tan(100) + 4sin(100) = -\\sqrt(3)", "step": 6, "score": 6, "branch": "None", "branch-level": "None"}
+  ],
+  "result": "-\\sqrt(3)"
+}

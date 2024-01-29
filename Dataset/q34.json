@@ -1,0 +1,12 @@
+{
+  "question": "Find value of (1+tan1)(1+tan2)...(1+tan44). Give the reasoning details.",
+  "intermediate-results": [
+    {"result": "(1+tanA)(1+tan(45-A)) = 1 + tanA + tan(45-A) + tanAtan(45-A)", "step": 1, "score": 1, "branch": "None", "branch-level": "None"},
+    {"result": "1 + tanA + tan(45-A) + tanAtan(45-A) = 1 + tanA + (1+tanA)tan(45-A)", "step": 2, "score": 2, "branch": "None", "branch-level": "None"},
+    {"result": "tan(45-A) = (tan45 - tanA)/(1+tan45tanA)", "step": 3, "score": 3, "branch": "None", "branch-level": "None"},
+    {"result": "(tan45 - tanA)/(1+tan45tanA) = (1-tanA)/(1+tanA)", "step": 4, "score": 4, "branch": "None", "branch-level": "None"},
+    {"result": "1 + tanA + tan(45-A) + tanAtan(45-A) = 2", "step": 5, "score": 5, "branch": "None", "branch-level": "None"},
+    {"result": "(1+tan1)(1+tan2)...(1+tan44) = 2^22", "step": 6, "score": 6, "branch": "None", "branch-level": "None"}
+  ],
+  "result": "2^22"
+}

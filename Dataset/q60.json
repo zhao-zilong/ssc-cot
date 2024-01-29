@@ -1,0 +1,13 @@
+{
+  "question": "Prove csc40 + tan10 = \\sqrt(3)",
+  "intermediate-results": [
+    {"result": "csc40 = \\sqrt(3) - tan10", "step": 1, "score": 1, "branch": "None", "branch-level": "None"},
+    {"result": "\\sqrt(3) - tan10 = (\\sqrt(3)/2cos10 - 1/2sin10)/(1/2cos10)", "step": 2, "score": 2, "branch": "None", "branch-level": "None"},
+    {"result": "(\\sqrt(3)/2cos10 - 1/2sin10)/(1/2cos10) =  (\\sqrt(3)/2sin80 - 1/2cos80)/(1/2cos10)", "step": 3, "score": 3, "branch":"None", "branch-level": "None"},
+    {"result": "(\\sqrt(3)/2sin80 - 1/2cos80)/(1/2cos10) = 2sin(80-30)/cos10", "step": 4, "score": 4, "branch": "None", "branch-level": "None"},
+    {"result": "2sin(80-30)/cos10 = 2cos40/sin80", "step": 5, "score": 5, "branch": "None", "branch-level": "None"},
+    {"result": "2cos40/sin80 = 2cos40/(2sin40cos40)", "step": 6, "score": 6, "branch": "None", "branch-level": "None"},
+    {"result": "2cos40/(2sin40cos40) = csc40", "step": 7, "score": 7, "branch": "None", "branch-level": "None"}
+  ],
+  "result": "Q.E.D"
+}

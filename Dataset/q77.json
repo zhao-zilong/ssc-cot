@@ -1,0 +1,14 @@
+{
+  "question": "It is known that the three angles A, B, and C of triangle ABC form a geometric sequence, the corresponding three sides are a, b, c, and a, c, 4/\\sqrt(3)b form a geometric sequence, then the area of ABC can be expressed using a as?",
+  "intermediate-results": [ 
+    {"result": "2B = A + C, 3B=A+B+C = 180, B = 60", "step": 1, "score": 1, "branch": "None", "branch-level": "None"},
+    {"result": "let the ratio be q between a, c, 4/\\sqrt(3)b, c=qa, b = \\sqr(3)q^2a/4", "step": 2, "score": 2, "branch": "None", "branch-level": "None"},
+    {"result": "a/sinA = \\sqr(3)q^2a/(4sin60) = qa/(sin(120 - A))", "step": 3, "score": 3, "branch": "None", "branch-level": "None"},
+    {"result": "because a/sinA = \\sqr(3)q^2a/(4sin60), then sinA = 2/q^2", "step": 4, "score": 4, "branch": "None", "branch-level": "None"},
+    {"result": "because \\sqr(3)q^2a/(4sin60) = qa/(sin(120 - A)) and sinA = 2/q^2, \\sqrt(3)/3cosA = 2/q-1/q^2", "step": 5, "score": 5, "branch": "None", "branch-level": "None"},
+    {"result": "because a/sinA = qa/(sin(120 - A)), sinA = 2/q^2, \\sqrt(3)/3cosA = 2/q-1/q^2, (q-2)(3q^3 +5q^2 + 4 +(q-2)^2) = 0", "step": 6, "score": 6, "branch": "None", "branch-level": "None"},
+    {"result": "q = 2, sinA = 1/2, A = 30, C = 90", "step": 7, "score": 7, "branch": "None", "branch-level": "None"},
+    {"result": "area of ABC  = 1/2ab = \\sqrt(3)/2a^2", "step": 8, "score": 8, "branch": "None", "branch-level": "None"}
+  ],
+  "result": "\\sqrt(3)/2a^2"
+}

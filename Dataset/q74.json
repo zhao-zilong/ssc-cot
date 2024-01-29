@@ -1,0 +1,11 @@
+{
+  "question": "Find the value of sin20sin40sin80.",
+  "intermediate-results": [
+    {"result": "sin20sin40sin80 = 1/2(cos20-cos60)sin80", "step": 1, "score": 1, "branch": "None", "branch-level": "None"},
+    {"result": "1/2(cos20-cos60)sin80 = (cos20sin80 -1/2sin80)/2", "step": 2, "score": 2, "branch": "None", "branch-level": "None"},
+    {"result": "(cos20sin80 -1/2sin80)/2 = (sin100 + sin60 - sin80)/4", "step": 3, "score": 3, "branch": "None", "branch-level": "None"},
+    {"result": "(sin100 + sin60 - sin80)/4 = sin60/4", "step": 4, "score": 4, "branch": "None", "branch-level": "None"},
+    {"result": "sin60/4 = \\sqrt(3)/8", "step": 5, "score": 5, "branch": "None", "branch-level": "None"}
+  ],
+  "result": "\\sqrt(3)/8"
+}

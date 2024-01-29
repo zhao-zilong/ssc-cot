@@ -1,0 +1,14 @@
+{
+  "question": "In triangle ABC, angles A, B and C satisfy tanAtanB = tanBtanC + tanCtanA, find the minimum value of cosC",
+  "intermediate-results": [ 
+    {"result": "sinAsinB/(cosAcosB) = sinBsinC/(cosBcosC) + sinCsinA/(cosCcosA)", "step": 1, "score": 1, "branch": "None", "branch-level": "None"},
+    {"result": "sinBsinC/(cosBcosC) + sinCsinA/(cosCcosA) = sinC(sinBcosA + sinAcosB)/(cosAcosBcosC)", "step": 2, "score": 2, "branch": "None", "branch-level": "None"},
+    {"result": "sinC(sinBcosA + sinAcosB)/(cosAcosBcosC) = sinCsin(A+B)/(cosAcosBcosC)", "step": 3, "score": 3, "branch": "None", "branch-level": "None"},
+    {"result": "sinCsin(A+B)/(cosAcosBcosC) = (sinC)^2/(cosAcosBcosC)", "step": 4, "score": 4, "branch": "None", "branch-level": "None"},
+    {"result": "sinAsinBcosC = (sinC)^2", "step": 5, "score": 5, "branch": "None", "branch-level": "None"},
+    {"result": "ab(a^2+b^2-c^2)/(2ab) = c^2", "step": 6, "score": 6, "branch": "None", "branch-level": "None"},
+    {"result": "a^2+b^2-c^2 = 2c^2", "step": 7, "score": 7, "branch": "None", "branch-level": "None"},
+    {"result": "cosC = (sinC)^2/(sinAsinB) = c^2/ab = (a^2+b^2)/3ab >= 2ab/3ab = 2/3", "step": 8, "score": 8, "branch": "None", "branch-level": "None"}
+ ],
+  "result": "2/3"
+} 

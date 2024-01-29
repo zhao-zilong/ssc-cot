@@ -1,0 +1,15 @@
+{
+  "question": "Prove (\\sqrt(3)/tan10 - 1)(sec80 - 4cos40 -2) = 8cos40",
+  "intermediate-results": [
+    {"result": "\\sqrt(3)/tan10 - 1 = (\\sqrt(3)cos10 - sin10)/sin10", "step": 1, "score": 1, "branch": "None", "branch-level": "None"},
+    {"result": "(\\sqrt(3)cos10 - sin10)/sin10 = (\\sqrt(3)/2cos10 - 1/2sin10)/(1/2sin10)", "step": 2, "score": 2, "branch": "None", "branch-level": "None"},
+    {"result": "(\\sqrt(3)/2cos10 - 1/2sin10)/(1/2sin10) = -2sin(10 - 60)/sin10", "step": 3, "score": 3, "branch": "None", "branch-level": "None"},
+    {"result": "-2sin(10 - 60)/sin10 = 2cos40/cos80", "step": 4, "score": 4, "branch":"None", "branch-level": "None"},
+    {"result": "sec80 - 4cos40 -2 = 4cos80", "step": 5, "score": 5, "branch": "None", "branch-level": "None"},
+    {"result": "csc10 - 4sin50 - 2 = 4sin10", "step": 6, "score": 6, "branch": "None", "branch-level": "None"},
+    {"result": "csc10 - 2 = 4(sin10+sin50) = 4cos20", "step": 7, "score": 7, "branch": "None", "branch-level": "None"},
+    {"result": "1 - 4sin10cos20 = 2sin10", "step": 8, "score": 8, "branch": "None", "branch-level": "None"},
+    {"result": "1 - 4sin10cos20 = 1 - 2(sin30-sin10) = 2sin10", "step": 9, "score": 9, "branch": "None", "branch-level": "None"}
+  ],
+  "result": "Q.E.D"
+}

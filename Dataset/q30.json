@@ -1,0 +1,13 @@
+{
+  "question": "Find the value of 3/(sin20)^2 - 1/(cos20)^2 + 64(sin20)^2",
+  "intermediate-results": [
+    {"result": "3/(sin20)^2 - 1/(cos20)^2 = (3(cos20)^2 - (sin20)^2)/((cos20)^2(sin20)^2)", "step": 1, "score": 1, "branch": 1, "branch-level": 1},
+    {"result": "(3(cos20)^2 - (sin20)^2)/((cos20)^2(sin20)^2) = 4(\\sqrt(3)cos20 + sin20)(\\sqrt(3)cos20 - sin20)/(2sin20cos20)^2", "step": 2, "score": 2, "branch": 1, "branch-level": 1},
+    {"result": "4(\\sqrt(3)cos20 + sin20)(\\sqrt(3)cos20 - sin20)/(2sin20cos20)^2 = 16(\\sqrt(3)/2cos20 + 1/2sin20)(\\sqrt(3)/2cos20 - 1/2sin20)/(sin40)^2", "step": 3, "score": 3, "branch": 1, "branch-level": 1},
+    {"result": "16(\\sqrt(3)/2cos20 + 1/2sin20)(\\sqrt(3)/2cos20 - 1/2sin20)/(sin40)^2 = 16sin80sin40/(sin40)^2", "step": 4, "score": 4, "branch": 1, "branch-level": 1},
+    {"result": "16sin80sin40/(sin40)^2 = 32cos40", "step": 5, "score": 5, "branch": 1, "branch-level": 1},
+    {"result": "64(sin20)^2 = 32(1-cos40)", "step": 6, "score": 1, "branch": 2, "branch-level": 1},
+    {"result": "3/(sin20)^2 - 1/(cos20)^2 + 64(sin20)^2 = 32cos40 + 32(1-cos40) = 32", "step": 7, "score": 7, "branch": "None", "branch-level": "None"}
+  ],
+  "result": "32"
+}

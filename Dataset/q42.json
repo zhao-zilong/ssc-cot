@@ -1,0 +1,17 @@
+{
+  "question": "In triangle ABC, the three sides corresponding to angles A, B, and C are a, b, and c. At the same time, \\sqrt(2)a, b, and c are arithmetic sequences. Find (3/sin(A) + \\sqrt (2)/sin(C)) minimum value?",
+  "intermediate-results": [
+    {"result": "2b = \\sqrt(2)a + c", "step": 1, "score": 1, "branch": "None", "branch-level": "None"},
+    {"result": "cosB = (a^2+c^2-b^2)/(2ac)", "step": 2, "score": 2, "branch": "None", "branch-level": "None"},
+    {"result": "(a^2+c^2-b^2)/(2ac) = 1/(2ac)(1/2a^2 + 3/4c^2 - \\sqrt(2)/2*ac)", "step": 3, "score": 3, "branch": "None", "branch-level": "None"},
+    {"result": "1/(2ac)(1/2a^2 + 3/4c^2 - \\sqrt(2)/2*ac) >= 1/(2ac)(2\\sqrt(1/2a^2*3/4c^2) - \\sqrt(2)/2ac) = (\\sqrt(6) - \\sqrt(2))/4", "step": 4, "score": 4, "branch": "None", "branch-level": "None"},
+    {"result": "0 < B < 75", "step": 5, "score": 5, "branch": "None", "branch-level": "None"},
+    {"result": "because 2b = \\sqrt(2)a + c, then 2sinB = \\sqrt(2)sinA + sinC <= (\\sqrt(6) + \\sqrt(2))/2", "step": 6, "score": 6, "branch": "None", "branch-level": "None"},
+    {"result": "(\\sqrt(2)sinA + sinC)/(1/2(\\sqrt(6) + \\sqrt(2))) <= 1", "step": 7, "score": 7, "branch": "None", "branch-level": "None"},
+    {"result": "(3/sin(A) + \\sqrt (2)/sin(C)) >= (3/sin(A) + \\sqrt(2)/sin(C))(\\sqrt(2)sinA + sinC)/(2/(\\sqrt(6) + \\sqrt(2)))", "step": 8, "score": 8, "branch": "None", "branch-level": "None"},
+    {"result": "(3/sin(A) + \\sqrt (2)/sin(C))(\\sqrt(2)sinA + sinC)/(2/(\\sqrt(6) + \\sqrt(2))) >= 2/(\\sqrt(6) + \\sqrt(2))(4\\sqrt(2) + 2sinA/sinC + 3sinC/sinA)", "step": 9, "score": 9, "branch": "None", "branch-level": "None"},
+    {"result": "2/(\\sqrt(6) + \\sqrt(2))(4\\sqrt(2) + 2sinA/sinC + 3sinC/sinA) >= 2/(\\sqrt(6) + \\sqrt(2))(4\\sqrt(2) + 2\\sqrt(2sinA/sinC*3sinC/sinA))", "step": 10, "score": 10, "branch": "None", "branch-level": "None"},
+    {"result": "2/(\\sqrt(6) + \\sqrt(2))(4\\sqrt(2) + 2\\sqrt(2sinA/sinC*3sinC/sinA)) = 2+2\\sqrt(3)", "step": 11, "score": 11, "branch": "None", "branch-level": "None"}
+  ],
+  "result": "2+2\\sqrt(3)"
+}

@@ -1,0 +1,14 @@
+{
+  "question": "In triangle ABC, angles A, B and C satisfy A+C = 2B, cosA + cosC = -\\sqrt(2)cosAcosC/(cosB), then find the value of cos((A-C)/2)",
+  "intermediate-results": [ 
+    {"result": "B = 60, A+C = 120", "step": 1, "score": 1, "branch": "None", "branch-level": "None"},
+    {"result": "Let (A-C)/2 = a, then A-C=2a, A = 60+a, C = 60-a", "step": 2, "score": 2, "branch": "None", "branch-level": "None"},
+    {"result": "cosA+cosC = cos(60+a)+cos(60-a) = 2cos60cos(a) = cos(a)", "step": 3, "score": 3, "branch": 1, "branch-level": 1},
+    {"result": "\\sqrt(2)cosAcosC/cosB = \\sqrt(2)cos(60+a)cos(60-a)/cos60", "step": 4, "score": 3, "branch": 2, "branch-level": 1},
+    {"result": "\\sqrt(2)cos(60+a)cos(60-a)/cos60 = \\sqrt(2)(cos(2a) + cos120)", "step": 5, "score": 4, "branch": 2, "branch-level": 1},
+    {"result": "\\sqrt(2)(cos(2a) + cos120) = 2\\sqrt(2)((cos(a))^2-3/4)", "step": 6, "score": 5, "branch": 2, "branch-level": 1},
+    {"result": "cos(a) = -2\\sqrt(2)((cos(a))^2-3/4), then 4\\sqrt(2)(cos(a))^2 + 2cos(a) - 3\\sqrt(2) = 0", "step": 7, "score": 7, "branch": "None", "branch-level": "None"},
+    {"result": "cos(a) = \\sqrt(2)/2", "step": 8, "score": 8, "branch": "None", "branch-level": "None"}
+ ],
+  "result": "\\sqrt(2)/2"
+} 

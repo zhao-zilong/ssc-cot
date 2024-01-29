@@ -1,0 +1,12 @@
+{
+  "question": "If A + B + C = \\pi, prove that sin(2A) + sin(2B) + sin(2C) = 4sinAsinBsinC",
+  "intermediate-results": [
+    {"result": "sin(2A) + sin(2B) + sin(2C) = 2sin(A+B)cos(A-B) + 2sinCcosC", "step": 1, "score": 1, "branch": "None", "branch-level": "None"},
+    {"result": "2sin(A+B)cos(A-B) + 2sinCcosC = 2sin(\\pi - C)cos(A-B) + 2sinCcosC", "step": 2, "score": 2, "branch": "None", "branch-level": "None"},
+    {"result": "2sin(\\pi - C)cos(A-B) + 2sinCcosC = 2sinCcos(A-B) + 2sinCcosC", "step": 3, "score": 3, "branch": "None", "branch-level": "None"},
+    {"result": "2sinCcos(A-B) + 2sinCcosC = 2sinC(cos(A-B) + cos(\\pi - (A+B)))", "step": 4, "score": 4, "branch": "None", "branch-level": "None"},
+    {"result": "2sinC(cos(A-B) + cos(\\pi - (A+B))) = 2sinC(cos(A-B) - cos(A+B))", "step": 5, "score": 5, "branch": "None", "branch-level": "None"},
+    {"result": "2sinC(cos(A-B) - cos(A+B)) = 2sinC(2sinBsinA) = 4sinAsinBsinC", "step": 6, "score": 6, "branch": "None", "branch-level": "None"}
+  ],
+  "result": "Q.E.D"
+}

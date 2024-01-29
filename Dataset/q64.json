@@ -1,0 +1,14 @@
+{
+  "question": "Find the value of cot20 - cot40 + cot80",
+  "intermediate-results": [
+    {"result": "cot20 - cot40 + cot80 = cos20/sin20 - cos40/sin40 + cos80/sin80", "step": 1, "score": 1, "branch": "None", "branch-level": "None"},
+    {"result": "cos20/sin20 - cos40/sin40 + cos80/sin80 = cos20/sin20 - (2(cos20)^2 - 1)/(2cos20sin20) + cos80/sin80", "step": 2, "score": 2, "branch": "None", "branch-level": "None"},
+    {"result": "cos20/sin20 - (2(cos20)^2 - 1)/(2cos20sin20) + cos80/sin80 = 1/sin40 + cos80/(2sin40cos40)", "step": 3, "score": 3, "branch": "None", "branch-level": "None"},
+    {"result": "1/sin40 + cos80/(2sin40cos40) = (2cos40 + cos80)/(2sin40cos40)", "step": 4, "score": 4, "branch":"None", "branch-level": "None"},
+    {"result": "(2cos40 + cos80)/(2sin40cos40) = (cos40 + cos40 + cos80)/sin80", "step": 5, "score": 5, "branch": "None", "branch-level": "None"},
+    {"result": "(cos40 + cos40 + cos80)/sin80 =  (cos40 + 2cos60cos20)/sin80", "step": 6, "score": 6, "branch": "None", "branch-level": "None"},
+    {"result": "(cos40 + 2cos60cos20)/sin80 = (cos40 + cos20)/cos10", "step": 7, "score": 7, "branch": "None", "branch-level": "None"},
+    {"result": "(cos40 + cos20)/cos10 = 2cos30cos10/cos10 = 2cos30 = \\sqrt(3)", "step": 8, "score": 8, "branch": "None", "branch-level": "None"}
+  ],
+  "result": "\\sqrt(3)"
+}

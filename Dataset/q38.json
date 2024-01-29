@@ -1,0 +1,14 @@
+{
+  "question": "If f(A) = cos(2A) + a(sin(A) - cos(A)) is a increasing function on [0,\\pi/2), find the range of real number a.",
+  "intermediate-results": [
+    {"result": "f'(A) = -2sin2A + a(cosA+sinA)", "step": 1, "score": 1, "branch": "None", "branch-level": "None"},
+    {"result": "-2sin2A + a(cosA+sinA) >= 0", "step": 2, "score": 2, "branch": "None", "branch-level": "None"},
+    {"result": "a >= (4sinAcosA)/(cosA + sinA)", "step": 3, "score": 3, "branch": "None", "branch-level": "None"},
+    {"result": "(4sinAcosA)/(cosA + sinA) <= (4sinAcosA)/2\\sqrt(sinAcosA)", "step": 4, "score": 4, "branch": "None", "branch-level": "None"},
+    {"result": "(4sinAcosA)/2\\sqrt(sinAcosA) = 2\\sqrt(sinAcosA)", "step": 5, "score": 5, "branch": "None", "branch-level": "None"},
+    {"result": "2\\sqrt(sinAcosA) = \\sqrt(2)*\\sqrt(sin2A)", "step": 6, "score": 6, "branch": "None", "branch-level": "None"},
+    {"result": "\\sqrt(2)*\\sqrt(sin2A) <=  \\sqrt(2)", "step": 7, "score": 7, "branch": "None", "branch-level": "None"},
+    {"result": "a >= \\sqrt(2)", "step": 8, "score": 8, "branch": "None", "branch-level": "None"}
+  ],
+  "result": "a >= \\sqrt(2)"
+}

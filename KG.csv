@@ -1,0 +1,209 @@
+head,action,tail
+cos(A),A is not special angle,"Given angle is not a special angle, use special angles (i.e., 30, 45, 60, or 90) to decompose it."
+sin(A),A is not special angle,"Given angle is not a special angle, use special angles (i.e., 30, 45, 60, or 90) to decompose it."
+tan(A),A is not special angle,"Given angle is not a special angle, use special angles (i.e., 30, 45, 60, or 90) to decompose it."
+cos(A),A = 0,cos0 = 1
+cos(A),A = 30,cos30 = \sqrt(3)/2
+cos(A),A = 45,cos45 = \sqrt(2)/2
+cos(A),A = 60,cos60 = 1/2
+cos(A),A = 90,cos90 = 0
+sin(A),A = 0,sin0 = 0
+sin(A),A = 30,sin30 = 1/2
+sin(A),A = 45,sin45 = \sqrt(2)/2
+sin(A),A = 60,sin60 = \sqrt(3)/2
+sin(A),A = 90,sin90 = 1
+tan(A),A = 0,tan0 = 0
+tan(A),A = 30,tan30 = \sqrt(3)/2
+tan(A),A = 45,tan45 = 1
+tan(A),A = 60,tan60 = \sqrt(3)
+cos(A),A = \pi/6,cos(\pi/6) = \sqrt(3)/2
+cos(A),A = \pi/4,cos(\pi/4) = \sqrt(2)/2
+cos(A),A = \pi/3,cos(\pi/3) = 1/2
+cos(A),A = \pi/2,cos(\pi/2) = 0
+sin(A),A = \pi/6,sin(\pi/6) = 1/2
+sin(A),A = \pi/4,sin(\pi/4) = \sqrt(2)/2
+sin(A),A = \pi/3,sin(\pi/3) = \sqrt(3)/2
+sin(A),A = \pi/2,sin(\pi/2) = 1
+tan(A),A = \pi/6,tan(\pi/6) = \sqrt(3)/2
+tan(A),A = \pi/4,tan(\pi/4) = 1
+tan(A),A = \pi/3,tan(\pi/3) = \sqrt(3)
+tan(A),belongs to,tanA = sinA/cosA
+cot(A) ,belongs to,cotA = cosA/sinA
+csc(A),belongs to,cscA = 1/sinA
+sec(A),belongs to,secA = 1/cosA
+cot(A) ,belongs to,cotA = 1/tanA
+sin(A),belongs to,sinA = 1/cscA
+cos(A),belongs to,cosA = 1/secA
+tan(A),belongs to,tanA = 1/cotA
+(sin(A))^2,belongs to,(sinA)^2+(cosA)^2 = 1
+(cos(A))^2,belongs to,(sinA)^2+(cosA)^2 = 1
+(tan(A))^2,belongs to,(tanA)^2 = (secA)^2 - 1
+(cot(A))^2,belongs to,(cotA)^2 = (cscA)^2 - 1
+sin(A),A = -X,sin(-X) = -sinX
+cos(A),A = -X,cos(-X) = cosX
+tan(A),A = -X,tan(-X) = -tanX
+csc(A),A = -X,csc(-X) = -cscX
+sec(A),A = -X,sec(-X) = secX
+cot(A) ,A = -X,cot(-X)  = -cotX
+sin(A),A = 2\pi+X,sin(2\pi + X) = sinX
+cos(A),A = 2\pi+X,cos(2\pi + X) = cosX
+tan(A),A = 2\pi+X,tan(2\pi + X) = tanX
+csc(A),A = 2\pi+X,csc(2\pi + X) = cscX
+sec(A),A = 2\pi+X,sec(2\pi + X) = secX
+cot(A) ,A = 2\pi+X,cot(2\pi + X) = cotX
+sin(A),A = \pi+X,sin(\pi + X) = -sinX
+cos(A),A = \pi+X,cos(\pi + X) = -cosX
+csc(A),A = \pi+X,csc(\pi + X) = -cscX
+sec(A),A = \pi+X,sec(\pi + X) = -secX
+tan(A),A = \pi+X,tan(\pi + X) = tanX
+cot(A) ,A = \pi+X,cot(\pi + X) = cotX
+sin(A),A = 360+X,sin(360 + X) = sinX
+cos(A),A = 360+X,cos(360 + X) = cosX
+tan(A),A = 360+X,tan(360 + X) = tanX
+csc(A),A = 360+X,csc(360 + X) = cscX
+sec(A),A = 360+X,sec(360 + X) = secX
+cot(A) ,A = 360+X,cot(360 + X) = cotX
+sin(A),A = 270+X,sin(270+X) = -cosX
+cos(A),A = 270+X,cos(270+X) = sinX
+tan(A),A = 270+X,tan(270+X) = -cotX
+csc(A),A = 270+X,csc(270+X) = -secX
+sec(A),A = 270+X,sec(270+X) = cscX
+cot(A) ,A = 270+X,cot(270+X) = -tanX
+sin(A),A = 180+X,sin(180 + X) = -sinX
+cos(A),A = 180+X,cos(180 + X) = -cosX
+csc(A),A = 180+X,csc(180 + X) = -cscX
+sec(A),A = 180+X,sec(180 + X) = -secX
+tan(A),A = 180+X,tan(180 + X) = tanX
+cot(A) ,A = 180+X,cot(180 + X) = cotX
+sin(A),A = 90+X,sin(90 + X) = cos(X)
+cos(A),A = 90+X,cos(90 + X) = -sin(X)
+csc(A),A = 90+X,csc(90 + X) = sec(X)
+sec(A),A = 90+X,sec(90 + X) = -csc(X)
+tan(A),A = 90+X,tan(90 + X) = -cot(X)
+cot(A) ,A = 90+X,cot(90 + X) = -tan(X)
+sin(A),A = 3X,sin(3X) = 3sin(X) - 4(sin(X))^3
+cos(A),A = 3X,cos(3X) = 4(cos(X))^3 - 3cos(X)
+sin(3A),belongs to,sin(3A) = 3sin(A) - 4(sin(A))^3
+cos(3A),belongs to,cos(3A) = 4(cos(A))^3 - 3cos(A)
+sin(2A),belongs to,sin(2A) = 2sinAcosA
+cos(2A),belongs to,cos(2A) = (cosA)^2-(sinA)^2
+cos(2A),belongs to,cos(2A) = 2(cosA)^2 - 1
+cos(2A),belongs to,cos(2A) = 1 - 2(sinA)^2
+tan(2A),belongs to,tan(2A) = 2tanA/(1-(tanA)^2)
+sin(A/2),belongs to,sin(A/2) = \pm\sqrt((1 - cosA)/2)
+cos(A/2),belongs to,cos(A/2) = \pm\sqrt((1 + cosA)/2)
+tan(A/2),belongs to,tan(A/2) = \pm\sqrt((1 - cosA)/(1+cosA))
+tan(A/2),belongs to,tan(A/2) = sinA/(1+cosA)
+tan(A/2),belongs to,tan(A/2) = (1-cosA)/sinA
+sin(A),A = 2X,sin(2X) = 2sinXcosX
+cos(A),A = 2X,cos(2X) = (cosX)^2-(sinX)^2
+cos(A),A = 2X,cos(2X) = 2(cosX)^2 - 1
+cos(A),A = 2X,cos(2X) = 1 - 2(sinX)^2
+tan(A),A = 2X,tan(2X) = 2tanX/(1-(tanX)^2)
+sin(A),A = X/2,sin(X/2) = \pm\sqrt((1 - cosX)/2)
+cos(A),A = X/2,cos(X/2) = \pm\sqrt((1 + cosX)/2)
+tan(A),A = X/2,tan(X/2) = \pm\sqrt((1 - cosX)/(1+cosX))
+tan(A),A = X/2,tan(X/2) = sinX/(1+cosX)
+tan(A),A = X/2,tan(X/2) = (1-cosX)/sinX
+sin(A)sin(B),belongs to,sinAsinB = 1/2(cos(A-B) - cos(A+B))
+cos(A)cos(B),belongs to,cosAcosB = 1/2(cos(A-B) + cos(A + B))
+sin(A)cos(B),If A = B,sin(2A) = 2sin(A)cos(A)
+sin(A)cos(B),belongs to,sinAcosB = 1/2(sin(A+B) + sin(A-B))
+tan(A)tan(B),belongs to,tanAtanB = (tanA + tanB)/(cotA + cotB)
+tan(A)cot(B),belongs to,tanAcotB = (tanA + cotB)/(cot(A) + tan(B))
+cos(A-B) - cos(A+B),belongs to,sinAsinB = 1/2(cos(A-B) - cos(A+B))
+cos(A-B) + cos(A + B),belongs to,cosAcosB = 1/2(cos(A-B) + cos(A + B))
+sin(A+B) + sin(A-B),belongs to,sinAcosB = 1/2(sin(A+B) + sin(A-B))
+(tan(A) + tan(B))/(cot(A) + cot(B)),belongs to,tanAtanB = (tanA + tanB)/(cotA + cotB)
+(tan(A) + cot(B))/(cot(A) + tan((B))),belongs to,tanAcotB = (tanA + cotB)/(cot(A) + tan(B))
+2sin((A+B)/2)cos((A-B)/2),belongs to,sinA + sinB = 2sin((A+B)/2)cos((A-B)/2)
+2cos((A+B)/2)sin((A-B)/2),belongs to,sinA - sinB = 2cos((A+B)/2)sin((A-B)/2)
+2cos((A+B)/2)cos((A-B)/2),belongs to,cosA + cosB = 2cos((A+B)/2)cos((A-B)/2)
+-2sin((A+B)/2)sin((A-B)/2),belongs to,cosA - cosB = -2sin((A+B)/2)sin((A-B)/2)
+sin(A+B)/(cos(A)cos(B)),belongs to,tanA + tanB = sin(A+B)/(cosAcosB)
+sin(A-B)/(cos(A)cos(B)),belongs to,tanA - tanB = sin(A-B)/(cosAcosB)
+sin(A) + sin(B),belongs to,sinA + sinB = 2sin((A+B)/2)cos((A-B)/2)
+sin(A) - sin(B),belongs to,sinA - sinB = 2cos((A+B)/2)sin((A-B)/2)
+cos(A) + cos(B),belongs to,cosA + cosB = 2cos((A+B)/2)cos((A-B)/2)
+cos(A) - cos(B),belongs to,cosA - cosB = -2sin((A+B)/2)sin((A-B)/2)
+tan(A) + tan(B),belongs to,tanA + tanB = sin(A+B)/(cosAcosB)
+tan(A) - tan(B),belongs to,tanA - tanB = sin(A-B)/(cosAcosB)
+(sin(A))^4,belongs to,(sin(A)^4 = (-4cos(2A) +cos(4A) +3)/8
+(cos(A))^4,belongs to,(cos(A))^4 =  (4cos(2A) + cos(4A) + 3)/8
+(sin(A))^3,belongs to,(sin(A))^3 = (-sin(3A) + 3sin(A))/4
+(cos(A))^3,belongs to,(cos(A))^3 = (cos(3A) + 3cos(A))/4
+(sin(A))^2,belongs to,(1-cos2A)/2
+(cos(A))^2,belongs to,(1+cos2A)/2
+(tan(A))^2,belongs to,(1-cos2A)/(1+cos2A)
+sin(A),A = \pi/2-X,sin(\pi/2 - X) = cosX
+cos(A),A = \pi/2-X,cos(\pi/2 - X) = sinX
+tan(A),A = \pi/2-X,tan(\pi/2 - X) = cotX
+cot(A) ,A = \pi/2-X,cot(\pi/2 - X) = tanX
+sec(A),A = \pi/2-X,sec(\pi/2 - X) = cscX
+csc(A),A = \pi/2-X,csc(\pi/2 - X) = secX
+sin(A),A = \pi-X,sin(\pi-X) = sinX
+cos(A),A = \pi-X,cos(\pi-X) = -cosX
+tan(A),A = \pi-X,tan(\pi-X) = -tanX
+cot(A) ,A = \pi-X,cot(\pi-X) = -cotX
+sec(A),A = \pi-X,sec(\pi-X) = -secX
+csc(A),A = \pi-X,csc(\pi-X) = cscX
+sin(A),A = 3\pi/2-X,sin(3\pi/2 - X) = -cosX
+cos(A),A = 3\pi/2-X,cos(3\pi/2 - X) = -sinX
+tan(A),A = 3\pi/2-X,tan(3\pi/2 - X) = cotX
+cot(A) ,A = 3\pi/2-X,cot(3\pi/2 - X) = tanX
+sec(A),A = 3\pi/2-X,sec(3\pi/2 - X) = -cscX
+csc(A),A = 3\pi/2-X,csc(3\pi/2 - X) = -secX
+sin(A),A = 90-X,sin(90 - X) = cosX
+cos(A),A = 90-X,cos(90 - X) = sinX
+tan(A),A = 90-X,tan(90 - X) = cotX
+cot(A) ,A = 90-X,cot(90 - X) = tanX
+sec(A),A = 90-X,sec(90 - X) = cscX
+csc(A),A = 90-X,csc(90 - X) = secX
+sin(A),A = 180-X,sin(180-X) = sinX
+cos(A),A = 180-X,cos(180-X) = -cosX
+tan(A),A = 180-X,tan(180-X) = -tanX
+cot(A) ,A = 180-X,cot(180-X) = -cotX
+sec(A),A = 180-X,sec(180-X) = -secX
+csc(A),A = 180-X,csc(180-X) = cscX
+sin(A),A = 270-X,sin(270 - X) = -cosX
+cos(A),A = 270-X,cos(270 - X) = -sinX
+tan(A),A = 270-X,tan(270 - X) = cotX
+cot(A) ,A = 270-X,cot(270 - X) = tanX
+sec(A),A = 270-X,sec(270 - X) = -cscX
+csc(A),A = 270-X,csc(270 - X) = -secX
+sin(A+B),belongs to,sin(A+B) = sinAcosB+cosAsinB
+sin(A-B),belongs to,sin(A-B) = sinAcosB-cosAsinB
+cos(A+B),belongs to,cos(A+B) = cosAcosB - sinAsinB
+cos(A-B),belongs to,cos(A-B) = cosAcosB + sinAsinB
+tan(A+B),belongs to,tan(A+B) = (tanA + tanB)/(1-tanAtanB)
+tan(A-B),belongs to,tan(A-B) = (tanA - tanB)/(1-tanAtanB)
+sin(A),A = X+Y,sin(X+Y) = sinXcosY+cosXsinY
+sin(A),A = X-Y,sin(X-Y) = sinXcosY-cosXsinY
+cos(A),A = X+Y,cos(X+Y) = cosXcosY - sinXsinY
+cos(A),A = X-Y,cos(X-Y) = cosXcosY + sinXsinY
+tan(A),A = X+Y,tan(X+Y) = (tanX + tanY)/(1-tanXtanY)
+tan(A),A = X-Y,tan(X-Y) = (tanX - tanY)/(1-tanXtanY)
+sin(A)cos(B)+cos(A)sin(B),belongs to,sin(X+Y) = sinXcosY+cosXsinY
+sin(A)cos(B)-cos(A)sin(B),belongs to,sin(X-Y) = sinXcosY-cosXsinY
+cos(A)cos(B) - sin(A)sin(B),belongs to,cos(X+Y) = cosXcosY - sinXsinY
+cos(A)cos(B) + sin(A)sin(B),belongs to,cos(X-Y) = cosXcosY + sinXsinY
+(tan(A) + tan(B))/(1-tan(A)tan(B)),belongs to,tan(X+Y) = (tanX + tanY)/(1-tanXtanY)
+(tan(A) - tan(B))/(1-tan(A)tan(B)),belongs to,tan(X-Y) = (tanX - tanY)/(1+tanXtanY)
+asin(A) + bcos(A),belongs to,"maximum value of asinA + bcosA is \sqrt(a^2+b^2), minimum value of y is -sqrt(a^2+b^2)"
+sin(A),A = 10,sin20=2sin10cos10=1/2(cos10-\sqrt(3)sin10)
+cos(A),A = 10,sin20=2sin10cos10=1/2(cos10-\sqrt(3)sin10)
+sin(A),A = 20,sin20=2sin10cos10=1/2(cos10-\sqrt(3)sin10)
+Triangle,equilateral,"all sides are equal, all angles are equal to 60 degree"
+sin(A),A = 18,sin18 = (\sqrt(5) - 1)/4
+cos(A),A = 18,cos18 = \sqrt(10 + 2\sqrt(5))/4
+sin(A),A = 36,sin36 = \sqrt(10 - 2\sqrt(5))/4
+sin(A),A = 36,cos36 = (\sqrt(5) + 1)/4
+ABC,area,Area of ABC = 1/2*ab*sinC where a and b can be any two sides and C is the included angle
+ABC,side,a/sinA = b/sinB = c/sinC
+ABC,side,a^2 = b^2 + c^2 -2bc*cosA
+arithmetic sequence,defined by ,"For the number X, Y, Z which form an arithmetic sequence, then Y - X = Z - Y and 2Y = X + Z"
+geometric sequence,defined by ,"For the number X, Y, Z which form an geometric sequence, then Y/X = Z/Y and Y^2 = X*Z"
+tan(A),equals to,tan(A) = sin(A)/cos(A)
+cot(A),equals to,cot(A) = cos(A)/sin(A)
+csc(A),equals to,csc(A) = 1/sin(A)
+sec(A),equals to,sec(A) = 1/cos(A)

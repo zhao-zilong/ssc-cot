@@ -1,0 +1,12 @@
+{
+  "question": "A, B and C are the interior angles of triangle ABC. It is known that cosA/(1+sinA)=sin(2B)/(1+cos(2B)). If angle C = 2\\pi/3, find the value of angle B.",
+  "intermediate-results": [
+    {"result": "cosA/(1+sinA) = sin(2B)/(1+cos(2B)) = 2sinBcosB/(1+2(cosB)^2-1)", "step": 1, "score": 1, "branch": "None", "branch-level": "None"},
+    {"result": "cosA/(1+sinA) = 2sinBcosB/(1+2(cosB)^2-1) = sinB/cosB", "step": 2, "score": 2, "branch": "None", "branch-level": "None"},
+    {"result": "cosAcosB = sinB + sinAsinB", "step": 3, "score": 3, "branch": "None", "branch-level": "None"},
+    {"result": "sinB = cosAcosB - sinAsinB = cos(A+B)", "step": 4, "score": 4, "branch": "None", "branch-level": "None"},
+    {"result": "sinB = cos(A+B) = -cosC", "step": 5, "score": 5, "branch": "None", "branch-level": "None"},
+    {"result": "B = C - \\pi/2 = \\pi/6", "step": 6, "score": 6, "branch": "None", "branch-level": "None"}
+  ],
+  "result": "\\pi/6"
+}

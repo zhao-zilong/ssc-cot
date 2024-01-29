@@ -1,0 +1,13 @@
+{
+  "question": "a = sin(sin(2008)), b= sin(cos(2008)), c=cos(sin(2008)), d = cos(cos(2008)), then the relationship between a, b, c, and d from small to large.",
+  "intermediate-results": [
+    {"result": "2008 = 5*360 + 180 + 28", "step": 1, "score": 1, "branch": "None", "branch-level": "None"},
+    {"result": "a = sin(-sin28) = -sin(sin28) <0", "step": 2, "score": 2, "branch": 1, "branch-level": 1},
+    {"result": "b = sin(-cos28) = -sin(cos28) <0", "step": 3, "score": 2, "branch": 2, "branch-level": 1},
+    {"result": "c = cos(-sin28) = cos(sin28) >0", "step": 4, "score": 2, "branch":3, "branch-level": 1},
+    {"result": "d = cos(-cos28) = cos(cos28) >0", "step": 5, "score": 2, "branch": 4, "branch-level": 1},
+    {"result": "sin28 < cos28", "step": 6, "score": 6, "branch": "None", "branch-level": "None"},
+    {"result": "b<a<d<c", "step": 7, "score": 7, "branch": "None", "branch-level": "None"}
+  ],
+  "result": "b<a<d<c"
+}

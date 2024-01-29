@@ -1,0 +1,13 @@
+{
+  "question": "Find value of sin10sin50sin60sin70",
+  "intermediate-results": [
+    {"result": "sin10sin50sin60sin70 = \\sqrt(3)/2*sin10sin50sin70", "step": 1, "score": 1, "branch": "None", "branch-level": "None"},
+    {"result": "\\sqrt(3)/2*sin10sin50sin70 = \\sqrt(3)/2*sin10(cos(-20) - cos120)*1/2", "step": 2, "score": 2, "branch": "None", "branch-level": "None"},
+    {"result": "\\sqrt(3)/2*sin10(cos(-20) - cos120)*1/2 = \\sqrt(3)/2*sin10(cos(20) - cos120)*1/2", "step": 3, "score": 3, "branch":"None", "branch-level": "None"},
+    {"result": "\\sqrt(3)/2*sin10(cos(20) - cos120)*1/2 = \\sqrt(3)/2*(sin10cos(20) - sin10cos120)*1/2", "step": 4, "score": 4, "branch": "None", "branch-level": "None"},
+    {"result": "\\sqrt(3)/2*(sin10cos(20) - sin10cos120)*1/2 = \\sqrt(3)/2*(sin30 + sin(-10) - 2sin10cos120)*1/4", "step": 5, "score": 5, "branch": "None", "branch-level": "None"},
+    {"result": "\\sqrt(3)/2*(sin30 + sin(-10) - 2sin10cos120)*1/4 = \\sqrt(3)/2*(sin30 + sin(-10) + sin10)*1/4", "step": 6, "score": 6, "branch": "None", "branch-level": "None"},
+    {"result": "\\sqrt(3)/2*(sin30 + sin(-10) + sin10)*1/4 = \\sqrt(3)/16", "step": 7, "score": 7, "branch": "None", "branch-level": "None"}
+  ],
+  "result": "\\sqrt(3)/16"
+}

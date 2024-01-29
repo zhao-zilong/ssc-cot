@@ -1,0 +1,17 @@
+{
+  "question": "In triangle ABC, angle A <= B <= C, (sinA+sinB+sinC)/(cosA+cosB+cosC) = \\sqrt(3). Find the range of angle B.",
+  "intermediate-results": [ 
+    {"result": "sinA+sinB+sinC = \\sqrt(3)(cosA+cosB+cosC)", "step": 1, "score": 1, "branch": "None", "branch-level": "None"},
+    {"result": "sinA+sinB+sinC = 2sin((A+C)/2)cos((A-C)/2) + sinB", "step": 2, "score": 2, "branch": 1, "branch-level": 1},
+    {"result": "\\sqrt(3)(cosA+cosB+cosC) = \\sqrt(3)(2cos((A+C)/2)cos((A-C)/2) + cosB)", "step": 3, "score": 2, "branch": 2, "branch-level": 1},
+    {"result": "(2\\sqrt(3)cos((A+C)/2) - 2sin((A+C)/2))cos((A-C)/2) = sinB - \\sqrt(3)cosB", "step": 4, "score": 4, "branch": "None", "branch-level": "None"},
+    {"result": "(2\\sqrt(3)cos((A+C)/2) - 2sin((A+C)/2))cos((A-C)/2) = 2sin(\\pi/3 - (A+C)/2)cos((A-C)/2)", "step": 5, "score": 5, "branch": 1, "branch-level": 2},
+    {"result": "sinB - \\sqrt(3)cosB = sin(B - \\pi/3)", "step": 6, "score": 5, "branch":2, "branch-level": 2},
+    {"result": "2sin(B/2 - \\pi/6)cos((A-C)/2) = 2sin(B/2 - \\pi/6)cos(B/2 - \\pi/6)", "step": 7, "score": 7, "branch": "None", "branch-level": "None"},
+    {"result": "2sin(B/2 - \\pi/6)(cos((A-C)/2) - cos((B-60)/2)) = 0", "step": 8, "score": 8, "branch": "None", "branch-level": "None"},
+    {"result": "sin(B/2 - \\pi/6)sin((A-C+B-60)/4)sin((B-A+C-60)/4) = 0", "step": 9, "score": 9, "branch": "None", "branch-level": "None"},
+    {"result": "A = 60 or B = 60 or C = 60", "step": 10, "score": 10, "branch": "None", "branch-level": "None"},
+    {"result": "Because A <= B <= C, B = 60", "step": 11, "score": 11, "branch": "None", "branch-level": "None"}
+  ],
+  "result": "60 or \\pi/3"
+}

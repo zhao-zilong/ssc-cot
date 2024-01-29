@@ -1,0 +1,17 @@
+{
+  "question": "f(A) = \\sqrt(15 - 12cosA) + \\sqrt(4 - 2\\sqrt(3)sinA) + \\sqrt(7 - 4\\sqrt(3)sinA) + \\sqrt(10 - 4\\sqrt(3)sinA - 6cosA), find minimum value of f(A).",
+  "intermediate-results": [
+    {"result": "\\sqrt(15 - 12cosA) = \\sqrt((\\sqrt(3)sinA)^2 + (\\sqrt(3)sinA - 2\\sqrt(3))^2)", "step": 1, "score": 1, "branch": 1, "branch-level": 1},
+    {"result": "\\sqrt(4 - 2\\sqrt(3)sinA) = \\sqrt((\\sqrt(3)sinA - 2)^2 + (  \\sqrt(3)cosA)^2)", "step": 2, "score": 1, "branch": 2, "branch-level": 1},
+    {"result": "\\sqrt(7 - 4\\sqrt(3)sinA) = \\sqrt((\\sqrt(3)sinA - 2)^2 + (\\sqrt(3)cosA - \\sqrt(3))^2)", "step": 3, "score": 1, "branch": 3, "branch-level": 1},
+    {"result": "\\sqrt(10 - 4\\sqrt(3)sinA - 6cosA) = \\sqrt((\\sqrt(3)sinA - 1)^2 + (\\sqrt(3)cosA)^2)", "step": 4, "score": 1, "branch": 4, "branch-level": 1},
+    {"result": "f(A) is the sum of distance between point P(\\sqrt(3)cosA, \\sqrt(3)sinA) to point A(2\\sqrt(3), 0), B(0, 2), C(\\sqrt(3), 2) and D(0, 1)", "step": 5, "score": 5, "branch": "None", "branch-level": "None"},
+    {"result": "P is on curve x^2 + y^2 = 3", "step": 6, "score": 6, "branch": 1, "branch-level": 2},
+    {"result": "A B in line x+\\sqrt(3)y = 2\\sqrt(3)", "step": 7, "score": 6, "branch": 2, "branch-level": 2},
+    {"result": "C D in line \\sqrt(3)x - 3y + 1 = 0", "step": 8, "score": 6, "branch": 3, "branch-level": 2},
+    {"result": "line AB, CD and x^2 + y^2 = 3 crossed at (\\sqrt(3)/2, 3/2)", "step": 9, "score": 9, "branch": "None", "branch-level": "None"},
+    {"result": "minimum value of f(A) = |AB| + |CD| = 6", "step": 10, "score": 10, "branch": "None", "branch-level ": "None"}
+    
+  ],
+  "result": "6"
+}

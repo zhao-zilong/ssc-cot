@@ -1,0 +1,10 @@
+{
+  "question": "Find value of cos(2\\pi/11) + cos(4\\pi/11) + cos(6\\pi/11) + cos(8\\pi/11) + cos(10\\pi/11).",
+  "intermediate-results": [
+    {"result": "cos(2\\pi/11) + cos(4\\pi/11) + cos(6\\pi/11) + cos(8\\pi/11) + cos(10\\pi/11) = (2cos(2\\pi/11)sin(\\pi/11) + 2cos(2\\pi/11)sin(\\pi/11) + 2cos(2\\pi/11)sin(\\pi/11) + 2cos(2\\pi/11)sin(\\pi/11) + 2cos(2\\pi/11)sin(\\pi/11))/(2sin(\\pi/11))", "step": 1, "score": 1, "branch": "None", "branch-level": "None"},
+    {"result": "(2cos(2\\pi/11)sin(\\pi/11) + 2cos(2\\pi/11)sin(\\pi/11) + 2cos(2\\pi/11)sin(\\pi/11) + 2cos(2\\pi/11)sin(\\pi/11) + 2cos(2\\pi/11)sin(\\pi/11))/(2sin(\\pi/11) = sin(3\\pi/11) - sin(\\pi/11) + sin(5\\pi/11) - sin(3\\pi/11) ... + sin(\\pi) - sin(9\\pi/11)", "step": 2, "score": 2, "branch": "None", "branch-level": "None"},
+    {"result": "sin(\\pi) - 0, sin(3\\pi/11) - sin(\\pi/11) + sin(5\\pi/11) - sin(3\\pi/11) ... + sin(\\pi) - sin(9\\pi/11) = -sin(\\pi/11)/(2sin(\\pi/11))", "step": 3, "score": 3, "branch": "None", "branch-level": "None"},
+    {"result": "-sin(\\pi/11)/(2sin(\\pi/11)) = -1/2", "step": 4, "score": 4, "branch": "None", "branch-level": "None"}
+  ],
+  "result": "-1/2"
+}

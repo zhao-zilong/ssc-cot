@@ -1,0 +1,12 @@
+{
+  "question": "Prove cot20 - sec10 = \\sqrt(3)",
+  "intermediate-results": [
+    {"result": "-sec10 = \\sqrt(3) - cot20", "step": 1, "score": 1, "branch": "None", "branch-level": "None"},
+    {"result": "\\sqrt(3) - cot20 = (\\sqrt(3)sin20 - cos20)/sin20", "step": 2, "score": 2, "branch": "None", "branch-level": "None"},
+    {"result": "(\\sqrt(3)sin20 - cos20)/sin20 = (\\sqrt(3)/2sin20 - 1/2cos20)/(1/2sin20)", "step": 3, "score": 3, "branch": "None", "branch-level": "None"},
+    {"result": "(\\sqrt(3)/2sin20 - 1/2cos20)/(1/2sin20) = 2sin(20 - 30)/sin20", "step": 4, "score": 4, "branch":"None", "branch-level": "None"},
+    {"result": "2sin(20 - 30)/sin20 = -sin10/(sin10cos10)", "step": 5, "score": 5, "branch": "None", "branch-level": "None"},
+    {"result": " -sin10/(sin10cos10) = -sec10", "step": 6, "score": 6, "branch": "None", "branch-level": "None"}
+  ],
+  "result": "Q.E.D"
+}

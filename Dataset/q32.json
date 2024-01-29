@@ -1,0 +1,14 @@
+{
+  "question": "If A + B + C = \\pi, prove that (cosA)^2 + (cosB)^2 + (cosC)^2 = 1 - 2cosAcosBcosC",
+  "intermediate-results": [
+    {"result": "(cosA)^2 + (cosB)^2 + (cosC)^2 = (cosA)^2 + 1 - (sinB)^2 + (cosC)^2", "step": 1, "score": 1, "branch": "None", "branch-level": "None"},
+    {"result": "(cosA)^2 + 1 - (sinB)^2 + (cosC)^2 = cos(A+B)cos(A-B) + (cosC)^2 + 1", "step": 2, "score": 2, "branch": "None", "branch-level": "None"},
+    {"result": "cos(A+B)cos(A-B) + (cosC)^2 + 1 = cos(\\pi - C)cos(A-B) + (cosC)^2 + 1", "step": 3, "score": 3, "branch": "None", "branch-level": "None"},
+    {"result": "cos(\\pi - C)cos(A-B) + (cosC)^2 + 1 = -cos(C)cos(A-B) + (cosC)^2 + 1", "step": 4, "score": 4, "branch": "None", "branch-level": "None"},
+    {"result": "-cos(C)cos(A-B) + (cosC)^2 + 1 = -cos(C)(cos(A-B) - cosC) + 1", "step": 5, "score": 5, "branch": "None", "branch-level": "None"},
+    {"result": "-cos(C)(cos(A-B) - (cosC)) + 1 = -cos(C)(cos(A-B) - cos(\\pi - (A+B))) + 1", "step": 6, "score": 6, "branch": "None", "branch-level": "None"},
+    {"result": "-cos(C)(cos(A-B) - cos(\\pi - (A+B))) + 1 = -cos(C)(cos(A-B) + cos(A+B)) + 1", "step": 7, "score": 7, "branch": "None", "branch-level": "None"},
+    {"result": "-cos(C)(cos(A-B) + cos(A+B)) + 1 = -cosC(2cosAcosB) + 1 = 1 -2cosAcosBcosC", "step": 8, "score": 8, "branch": "None", "branch-level": "None"}
+  ],
+  "result": "Q.E.D"
+}

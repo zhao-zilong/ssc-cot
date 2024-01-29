@@ -1,0 +1,14 @@
+{
+  "question": "The three interior angles of triangle ABC are A, B, and C, and its opposite sides are a, b, and c. The areas of the three equilateral triangles with a, b, and c as side lengths are S1, S2, and S3, respectively. It is known that S1-S2+S3 = \\sqrt(3)/2, sinB = 1/2. Find the area of ABC.",
+  "intermediate-results": [
+    {"result": "S1 = 1/2(a^2)\\sqrt(3)/2, S2 = 1/2(b^2)\\sqrt(3)/2, S3 = 1/2(c^2)\\sqrt(3)/2", "step": 1, "score": 1, "branch": "None", "branch-level": "None"},
+    {"result": "S1-S2+S3 = \\sqrt(3)/4(a^2 + c^2 - b^2) = \\sqrt(3)/2", "step": 2, "score": 2, "branch": "None", "branch-level": "None"},
+    {"result": "a^2 + c^2 - b^2 = 2", "step": 3, "score": 3, "branch": "None", "branch-level": "None"},
+    {"result": "cosB = (a^2 + c^2 - b^2)/(2ac), ac(cosB) = 1", "step": 4, "score": 4, "branch": "None", "branch-level": "None"},
+    {"result": "cosB > 0", "step": 5, "score": 5, "branch": "None", "branch-level": "None"},
+    {"result": "since sinB = 1/3, cosB = 2\\sqrt(2)/3", "step": 6, "score": 6, "branch": "None", "branch-level": "None"},
+    {"result": "ac = 1/(cosB) = 3\\sqrt(2)/4", "step": 7, "score": 7, "branch": "None", "branch-level": "None"},
+    {"result": "area of ABC = 1/2(ac)sin(B) = \\sqrt(2)/8", "step": 8, "score": 8, "branch": "None", "branch-level": "None"}
+  ],
+  "result": "\\sqrt(2)/8"
+}

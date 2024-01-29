@@ -1,0 +1,11 @@
+{
+  "question": "The opposite sides of interior angles A, B, and C of triangle ABC are a, b, and c respectively. Given that sin(C)sin(A-B) = sin(B)sin(C-A). Prove that 2a^2 = b^2 + c^2.",
+  "intermediate-results": [
+    {"result": "sin(C)sin(A-B) = sinC(sinAcosB - cosAsinB)", "step": 1, "score": 1, "branch": 1, "branch-level": 1},
+    {"result": "sinBsin(C-A) = sinB(sinCcosA - cosCsinA)", "step": 2, "score": 1, "branch": 2, "branch-level": 1},
+    {"result": "ac(cosB) - bc(cosA) = bc(cosA) - ab(cosC)", "step": 3, "score": 3, "branch": "None", "branch-level": "None"},
+    {"result": "1/2(a^2 + c^2 - b^2) - 1/2(b^2 + c^2 - a^2) = 1/2(b^2 + c^2 - a^2) - 1/2(a^2 + b^2 - c^2)", "step": 4, "score": 4, "branch": "None", "branch-level": "None"},
+    {"result": "2a^2 = b^2 + c^2", "step": 5, "score": 5, "branch": "None", "branch-level": "None"}
+  ],
+  "result": "Q.E.D"
+}

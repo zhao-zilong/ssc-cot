@@ -1,0 +1,17 @@
+{
+  "question": "Find the value of (sin10)^4 + (sin50)^4 + (sin70)^4",
+  "intermediate-results": [ 
+    {"result": "(sin10)^4 + (sin50)^4 + (sin70)^4 = ((1-cos20)/2)^2 + ((1-cos100)/2)^2 + ((1-cos140)/2)^2", "step": 1, "score": 1, "branch": "None", "branch-level": "None"},
+    {"result": "((1-cos20)/2)^2 + ((1-cos100)/2)^2 + ((1-cos140)/2)^2 = 1/4(3 - 2(cos20 + cos100 + cos140) + (cos20)^2 + (cos40)^2+ (cos140)^2)", "step": 2, "score": 2, "branch": "None", "branch-level": "None"},
+    {"result": "cos20 + cos100 + cos140 = 2cos60cos40 + cos140", "step": 3, "score": 3, "branch": 1, "branch-level": 1},
+    {"result": "2cos60cos40 + cos140 = cos40 + cos140", "step": 4, "score": 4, "branch": 1, "branch-level": 1},
+    {"result": "cos40 + cos140 = 0", "step": 5, "score": 5, "branch": 1, "branch-level": 1},
+    {"result": "(cos20)^2 + (cos40)^2+ (cos140)^2 = 1/2(3 + cos40 + cos200 + cos280)", "step": 6, "score": 3, "branch": 2, "branch-level": 1},
+    {"result": "1/2(3 + cos40 + cos200 + cos280) = 1/2(3 + 2cos120cos80 + cos(100+180))", "step": 7, "score": 4, "branch": 2, "branch-level": 1},
+    {"result": "1/2(3 + 2cos120cos80 + cos(100+180)) = 1/2(3 - cos80 + cos100cos180-sin100sin180)", "step": 8, "score": 5, "branch": 2, "branch-level": 1},
+    {"result": "1/2(3 - cos80 + cos100cos180-sin100sin180) = 1/2(3 - cos80 - cos100)", "step": 9, "score": 6, "branch": 2, "branch-level": 1},
+    {"result": "1/2(3 - cos80 - cos100) = 3/2", "step": 10, "score": 7, "branch": 2, "branch-level": 1},
+    {"result": "1/4(3 - 2(cos20 + cos100 + cos140) + (cos20)^2 + (cos40)^2+ (cos140)^2) = 9/8", "step": 11, "score": 11, "branch": "None", "branch-level": "None"}
+ ],
+  "result": "9/8"
+} 

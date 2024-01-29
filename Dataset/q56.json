@@ -1,0 +1,22 @@
+{
+  "question": "Prove tan12(1+1/sin6) = tan66",
+  "intermediate-results": [
+    {"result": "tan12(1+1/sin6) - tan66 = sin12(sin6+1)/(cos12sin6) - sin66/cos66", "step": 1, "score": 1, "branch": "None", "branch-level": "None"},
+    {"result": "sin12(sin6+1)/(cos12sin6) - sin66/cos66 = 2sin6cos6(sin6+1)/(cos12sin6) - cos24/sin24", "step": 2, "score": 2, "branch": "None", "branch-level": "None"},
+    {"result": "2sin6cos6(sin6+1)/(cos12sin6) - cos24/sin24 = (2cos6sin6+2cos6)/(cos12) - cos24/sin24", "step": 3, "score": 3, "branch": "None", "branch-level": "None"},
+    {"result": "(2cos6sin6+2cos6)/(cos12) - cos24/sin24 = (sin12 + 2cos6)/(cos12) - cos24/sin24", "step": 4, "score": 4, "branch": "None", "branch-level": "None"},
+    {"result": "(sin12 + 2cos6)/(cos12) - cos24/sin24 = (sin24sin12 +2sin24cos6 - cos24cos12)/(sin24cos12)", "step": 5, "score": 5, "branch": "None", "branch-level": "None"},
+    {"result": "(sin24sin12 +2sin24cos6 - cos24cos12)/(sin24cos12) = (-(cos24cos12 - sin24sin12) - 2sin24cos6)/(sin24cos12)", "step": 6, "score": 6, "branch": "None", "branch-level": "None"},
+    {"result": "(-(cos24cos12 - sin24sin12) - 2sin24cos6)/(sin24cos12) = (-cos36+sin30+sin18)/(sin24cos12)", "step": 7, "score": 7, "branch": "None", "branch-level": "None"},
+    {"result": "(-cos36+sin30+sin18)/(sin24cos12) = (sin30 + cos72 - cos36)/(sin24cos12)", "step": 8, "score": 8, "branch": "None", "branch-level": "None"},
+    {"result": "(sin30 + cos72 - cos36)/(sin24cos12) = (sin30 -2sin54sin18)/(sin24cos12)", "step": 9, "score": 9, "branch": "None", "branch-level": "None"},
+    {"result": "(sin30 -2sin54sin18)/(sin24cos12) = (sin30 -2cos36sin18)/(sin24cos12)", "step": 10, "score": 10, "branch": "None", "branch-level": "None"},
+    {"result": "(sin30 -2cos36sin18)/(sin24cos12) = (sin30 -(sin72/sin36)sin18)/(sin24cos12)", "step": 11, "score": 11, "branch": "None", "branch-level": "None"},
+    {"result": "(sin30 -(sin72/sin36)sin18)/(sin24cos12) = (sin30 -(cos18/sin36)sin18)/(sin24cos12)", "step": 12, "score": 12, "branch": "None", "branch-level": "None"},
+    {"result": "(sin30 -(cos18/sin36)sin18)/(sin24cos12) = (sin30 -(2sin18cos18/(2sin36)))/(sin24cos12)", "step": 13, "score": 13, "branch": "None", "branch-level": "None"},
+    {"result": "(sin30 -(2sin18cos18/(2sin36)))/(sin24cos12) = (sin30 -(sin36/(2sin36)))/(sin24cos12)", "step": 14, "score": 14, "branch": "None", "branch-level": "None"},
+    {"result": "(1/2 - 1/2)/(sin24cos12) = 0", "step": 15, "score": 15, "branch": "None", "branch-level": "None"}
+  ],
+  
+  "result": "Q.E.D"
+}

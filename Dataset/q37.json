@@ -1,0 +1,16 @@
+{
+  "question": "If in a triangle ABC, (cosA)^2 + (cosB)^2 + (cosC)^2 = 1, prove that the triangle is right angled.",
+  "intermediate-results": [
+    {"result": "(cosA)^2 + (cosB)^2 + (cosC)^2 = (cosA)^2 + (cosB)^2 + (cos(\\pi - (B+A)))^2", "step": 1, "score": 1, "branch": "None", "branch-level": "None"},
+    {"result": "(cosA)^2 + (cosB)^2 + (cos(\\pi - (B+A)))^2 = (cosA)^2 + (cosB)^2 + (cos(B+A))^2", "step": 2, "score": 2, "branch": "None", "branch-level": "None"},
+    {"result": "(cosA)^2 + (cosB)^2 = 1 - (cos(B+A))^2", "step": 3, "score": 3, "branch": "None", "branch-level": "None"},
+    {"result": "1 - (cos(B+A))^2 = (sin(A+B))^2", "step": 4, "score": 4, "branch": "None", "branch-level": "None"},
+    {"result": "(sin(A+B))^2 = (sinAcosB + cosAsinB)^2", "step": 5, "score": 5, "branch": "None", "branch-level": "None"},
+    {"result": "(sinAcosB + cosAsinB)^2 = (sinAcosB)^2 + (cosAsinB)^2 + 2sinAsinBcosAcosB", "step": 6, "score": 6, "branch": "None", "branch-level": "None"},
+    {"result": "2(cosAcosB)^2 = 2sinAsinBcosAcosB", "step": 7, "score": 7, "branch": "None", "branch-level": "None"},
+    {"result": "cosAcosB = sinAsinB", "step": 8, "score": 8, "branch": "None", "branch-level": "None"},
+    {"result": "cos(A+B) = 0 = cos(90)", "step": 9, "score": 9, "branch": "None", "branch-level": "None"},
+    {"result": "C = 90", "step": 10, "score": 10, "branch": "None", "branch-level": "None"}
+  ],
+  "result": "Q.E.D"
+}

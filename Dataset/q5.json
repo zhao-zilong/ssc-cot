@@ -1,0 +1,16 @@
+{
+
+  "question": "if sin(A) + sin(B) = 1, cos(A) + cos(B) = 0, find the value of cos(A+B).",
+  "intermediate-results": [
+    {"result": "(sin(A) + sin(B))^2 = (sinA)^2 + 2sinAsinB + (sinB)^2 = 1", "step": 1, "score": 1, "branch": 1, "branch-level": 1},
+    {"result": "(cos(A) + cos(B))^2 = (cosA)^2 + 2cosAcosB + (cosB)^2 = 0", "step": 2, "score": 1, "branch": 2, "branch-level": 1},
+    {"result": "Intermediate Node", "step": 3, "score": 2, "branch": "None", "branch-level": "None"},
+    {"result": "(sinA)^2 + 2sinAsinB + (sinB)^2 + (cosA)^2 + 2cosAcosB + (cosB)^2 = 2 + 2cos(A-B) = 1", "step": 4, "score": 3, "branch": 1, "branch-level": 2},
+    {"result": "(cosA)^2 + 2cosAcosB + (cosB)^2 - (sinA)^2 - 2sinAsinB - (sinB)^2 = cos2A + cos2B + 2cos(A+B) = -1", "step": 5, "score": 3, "branch": 2, "branch-level": 2},
+    {"result": "cos2A + cos2B + 2cos(A+B) = 2cos(A+B)(cos(A-B) + 1) = -1", "step": 6, "score": 4, "branch": 2, "branch-level": 2},
+    {"result": "cos(A+B) = -1", "step": 7, "score": 6, "branch": "None", "branch-level": "None"}
+  ],
+  "result": "-1"
+  
+
+}

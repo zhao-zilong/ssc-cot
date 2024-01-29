@@ -1,0 +1,12 @@
+{
+  "question": "Simplify sin(3A)/(1+2cos(2A))",
+  "intermediate-results": [
+    {"result": "sin(3A) = 3sinA - 4(sinA)^3", "step": 1, "score": 1, "branch": 1, "branch-level":1},
+    {"result": "3sinA - 4(sinA)^3 = sinA(3-4(sinA)^2)", "step": 2, "score": 2, "branch": 1, "branch-level": 1},
+    {"result": "(1+2cos2A) = 1+2(1-2(sinA)^2)", "step": 3, "score": 1, "branch": 2, "branch-level": 1},
+    {"result": "1+2(1-2(sinA)^2) = 3-4(sinA)^2", "step": 4, "score": 2, "branch": 2, "branch-level": 1},
+    {"result": "sin(3A)/(1+2cos2A) = sinA(3-4(sinA)^2)/(3-4(sinA)^2) = sinA", "step": 5, "score": 5, "branch": "None", "branch-level": "None"}
+  ],
+  
+  "result": "sinA"
+}

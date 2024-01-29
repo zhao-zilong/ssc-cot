@@ -1,0 +1,13 @@
+{
+  "question": "It is known that the function f(A) = \\sqrt(3)cos(2A-\\pi/3) - 2sinAcosA. When A belongs to [-\\pi/4, \\pi/4], prove that f(A) >= - 1/2.",
+  "intermediate-results": [
+    {"result": "\\sqrt(3)cos(2A-\\pi/3)  = \\sqrt(3)(1/2cos2A + \\sqrt(3)/2sin2A) ", "step": 1, "score": 1, "branch": 1, "branch-level": 1},
+    {"result": "2sinAcosA  = sin2A ", "step": 2, "score": 1, "branch": 2, "branch-level": 1},
+    {"result": "f(A) = \\sqrt(3)/2cos(2A) + 1/2sin(2A).", "step": 3, "score": 2, "branch": "None", "branch-level": "None"},
+    {"result": "f(A) = sin(2A + \\pi/3)", "step": 4, "score": 3, "branch": "None", "branch-level": "None"},
+    {"result": "2A + \\pi/3 belongs to [-\\pi/6, \\pi*5/6]", "step": 5, "score": 4, "branch": "None", "branch-level": "None"},
+    {"result": "sin(2A + \\pi/3) belongs to [-1/2, 1]", "step": 6, "score": 5, "branch": "None", "branch-level": "None"},
+    {"result": "f(A) >= -1/2", "step": 7, "score": 6, "branch": "None", "branch-level": "None"}
+  ],
+  "result": "Q.E.D"
+}

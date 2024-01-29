@@ -1,0 +1,12 @@
+{
+  "question": "Find the value of sin10(1+\\sqrt(3)cot20)",
+  "original_form": "sin10(1+\\sqrt(3)cot20)",
+  "intermediate-results": [
+    {"result": "1+\\sqrt(3)cot20 = 1+cot30cot20", "step": 1, "score": 1, "branch": "None", "branch-level": "None"},
+    {"result": "1+cot30cot20 = (sin30sin20 + cos30cos20)/(sin30sin20)", "step": 2, "score": 2, "branch": "None", "branch-level": "None"},
+    {"result": "(sin30sin20 + cos30cos20)/(sin30sin20) = cos10/(sin30sin20)", "step": 3, "score": 3, "branch": "None", "branch-level": "None"},
+    {"result": "sin10(1+\\sqrt(3)cot20) = 2sin10cos10/sin20", "step": 4, "score": 4, "branch":"None", "branch-level": "None"},
+    {"result": "2sin10cos10/sin20 = sin20/sin20 = 1", "step": 5, "score": 5, "branch": "None", "branch-level": "None"}
+  ],
+  "result": "1"
+}

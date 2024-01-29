@@ -1,0 +1,12 @@
+{
+  "question": "If A + B + C = \\pi, prove that cosA + cosB + cosC = 1 + 4sin(A/2)sin(B/2)sin(C/2)",
+  "intermediate-results": [
+    {"result": "cosA + cosB + cosC = 2cos((A+B)/2)cos((A-B)/2) + cos(\\pi - (A+B))", "step": 1, "score": 1, "branch": "None", "branch-level": "None"},
+    {"result": "2cos((A+B)/2)cos((A-B)/2) + cos(\\pi - (A+B)) = 2cos((A+B)/2)cos((A-B)/2) - cos(A+B)", "step": 2, "score": 2, "branch": "None", "branch-level": "None"},
+    {"result": "2cos((A+B)/2)cos((A-B)/2) - cos(A+B) = 2cos((A+B)/2)cos((A-B)/2) + 1 - 2cos((A+B)/2)^2", "step": 3, "score": 3, "branch": "None", "branch-level": "None"},
+    {"result": "2cos((A+B)/2)cos((A-B)/2) + 1 - 2cos((A+B)/2)^2 = 2cos((A+B)/2)(cos((A-B)/2) - cos((A+B)/2)) + 1", "step": 4, "score": 4, "branch": "None", "branch-level": "None"},
+    {"result": "2cos((A+B)/2)(cos((A-B)/2) - cos((A+B)/2)) + 1 = 4cos(\\pi/2 - C/2)sin(A/2)sin(B/2) + 1", "step": 5, "score": 5, "branch": "None", "branch-level": "None"},
+    {"result": "4cos(\\pi/2 - C/2)sin(A/2)sin(B/2) + 1 = 1 + 4sin(A/2)sin(B/2)sin(C/2)", "step": 6, "score": 6, "branch": "None", "branch-level": "None"}
+  ],
+  "result": "Q.E.D"
+}

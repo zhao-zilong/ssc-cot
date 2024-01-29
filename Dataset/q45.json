@@ -1,0 +1,14 @@
+{
+  "question": "The function f(x) defined on R (real number) satisfies f(x) + f(-x) = cos(x), and when x<=0, f'(x) >= 1/2 holds. If f(t) >= f(\\pi/2 - t) + \\sqrt(2)/2cos(t+\\pi/4), then the value range of real number t is?",
+  "intermediate-results": [
+    {"result": "f(t) >= f(\\pi/2 - t) + 1/2cos(t) - 1/2sin(t)", "step": 1, "score": 1, "branch": "None", "branch-level": "None"},
+    {"result": "f(t) - f(\\pi/2 - t) >=  1/2cos(t) - 1/2sin(t)", "step": 2, "score": 2, "branch": "None", "branch-level": "None"},
+    {"result": "g(t) = f(t) - 1/2cos(t)", "step": 3, "score": 3, "branch": "None", "branch-level": "None"},
+    {"result": "when t<=0, g'(t) = f'(t) + 1/2sin(t) >= 1/2(1+sin(t)) >= 0", "step": 4, "score": 4, "branch": 1, "branch-level": 1},
+    {"result": "when t>=0, g(t) + g(-t) = f(t) + f(-t) - 1/2cos(t) -1/2cos(-t) = cos(t) - cos(t) = 0", "step": 5, "score": 4, "branch":  1, "branch-level": 1},
+    {"result": "g(t) is odd function and g(t) is increasing on R", "step": 6, "score": 5, "branch":  1, "branch-level": 1},
+    {"result": "g(t) >= g(\\pi/2 -t)", "step": 7, "score": 7, "branch": "None", "branch-level": "None"},
+    {"result": "t >= \\pi/4", "step": 8, "score": 8, "branch": "None", "branch-level": "None"}
+  ],
+  "result": "t >= \\pi/4"
+}

@@ -1,0 +1,12 @@
+{
+  "question": "Prove cot10 - 4cos10 = \\sqrt(3)",
+  "intermediate-results": [
+    {"result": "-4cos10 = \\sqrt(3) - cot10", "step": 1, "score": 1, "branch": "None", "branch-level": "None"},
+    {"result": "\\sqrt(3) - cot10 = (\\sqrt(3)sin10 - cos10)/sin10", "step": 2, "score": 2, "branch": "None", "branch-level": "None"},
+    {"result": "(\\sqrt(3)sin10 - cos10)/sin10 = (\\sqrt(3)/2sin10 - 1/2cos10)/(1/2sin10)", "step": 3, "score": 3, "branch": "None", "branch-level": "None"},
+    {"result": "(\\sqrt(3)/2sin10 - 1/2cos10)/(1/2sin10) = 2sin(10 - 30)/sin10", "step": 4, "score": 4, "branch":"None", "branch-level": "None"},
+    {"result": "2sin(10 - 30)/sin10 = -2(2sin10cos10/sin10)", "step": 5, "score": 5, "branch": "None", "branch-level": "None"},
+    {"result": "-2(2sin10cos10/sin10) = -4cos10", "step": 6, "score": 6, "branch": "None", "branch-level": "None"}
+  ],
+  "result": "Q.E.D"
+}

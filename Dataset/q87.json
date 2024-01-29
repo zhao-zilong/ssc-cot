@@ -1,0 +1,15 @@
+{
+  "question": "Assume that the lengths of the sides opposite to the three interior angles A, B, and C of triangle ABC are a, b, and c respectively. If a/b + b/a = 4cosC, cos(A-B) = 1/6, then find the value of cosC?",
+  "intermediate-results": [ 
+    {"result": "a/b + b/a = 4(a^2 + b^2 -c^2)/(2ab)", "step": 1, "score": 1, "branch": "None", "branch-level": "None"},
+    {"result": "a^2 + b^2 = 2c^2", "step": 2, "score": 2, "branch": "None", "branch-level": "None"},
+    {"result": "2(sinC)^2 = (sinA)^2 + (sinB)^2", "step": 3, "score": 3, "branch": "None", "branch-level": "None"},
+    {"result": "(sinA)^2 + (sinB)^2 = (1-cos2A)/2 + (1-cos2B)/2", "step": 4, "score": 4, "branch": "None", "branch-level": "None"},
+    {"result": "(1-cos2A)/2 + (1-cos2B)/2 = 1-cos(A+B)cos(A-B)", "step": 5, "score": 5, "branch": "None", "branch-level": "None"},
+    {"result": "1-cos(A+B)cos(A-B) = 1+1/6cos(C)", "step": 6, "score": 6, "branch": "None", "branch-level": "None"},
+    {"result": "2(1-(cosC)^2) = 1+1/6cos(C)", "step": 7, "score": 7, "branch": "None", "branch-level": "None"},
+    {"result": "cos(C) = 2/3 or -3/4", "step": 8, "score": 8, "branch": "None", "branch-level": "None"},
+    {"result": "Because a/b + b/a = 4cosC, sin(C) > 0, so cos(C) = 2/3", "step": 9, "score": 9, "branch": "None", "branch-level": "None"}
+  ],
+  "result": "2/3"
+}

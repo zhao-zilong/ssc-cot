@@ -1,0 +1,11 @@
+{
+  "question": "In triangle ABC, the opposite sides of angles A, B, and C are a, b, and c respectively. If tanAtanB=tanAtanC+tanCtanB, then find the value of (a^2 + b^2)/c^2.",
+  "intermediate-results": [ 
+    {"result": "sinAsinB/(cosAcosB)=sinAsinC/(cosAcosC)+sinCsinB/(cosCcosB)", "step": 1, "score": 1, "branch": "None", "branch-level": "None"},
+    {"result": "sinAsinBcosC=sinAsinCcosB+sinBsinCcosA", "step": 2, "score": 2, "branch": "None", "branch-level": "None"},
+    {"result": "ab*(a^2+b^2-c^2)/(2ab)=ac*(a^2+c^2-b^2)/(2ac)+bc*(b^2+c^2-a^2)/(2bc)", "step": 3, "score": 3, "branch": "None", "branch-level": "None"},
+    {"result": "a^2+b^2-c^2=2c^2", "step": 4, "score": 4, "branch": "None", "branch-level": "None"},
+    {"result": "(a^2+b^2)/c^2=3", "step": 5, "score": 5, "branch":"None", "branch-level": "None"}
+  ],
+  "result": "3"
+}

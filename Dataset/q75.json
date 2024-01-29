@@ -1,0 +1,14 @@
+{
+  "question": "Function y = (sinA-1)(cosA-1)/(2+sin(2A)), x belongs to R (real number set), find the maximum value of y.",
+  "intermediate-results": [ 
+    {"result": "let t = sinA+cosA  = \\sqrt(2)sin(A+\\pi/4)", "step": 1, "score": 1, "branch": "None", "branch-level": "None"},
+    {"result": "t belongs to [-\\sqrt(2), \\sqrt(2)]", "step": 2, "score": 2, "branch": "None", "branch-level": "None"},
+    {"result": "sinAcosA = (t^2 - 1)/2", "step": 3, "score": 3, "branch": "None", "branch-level": "None"},
+    {"result": "y = (1/2(t^2 - 1) - t + 1)/(2+t^2-1) = 1/2 - t/(t^2+1)", "step": 4, "score": 4, "branch": "None", "branch-level": "None"},
+    {"result": "let g(t) = t/(t^2+1) t belongs to [-\\sqrt(2), \\sqrt(2)], g'(t) = (1-t^2)/(t^2+1)^2", "step": 5, "score": 5, "branch": "None", "branch-level": "None"},
+    {"result": "g'(t) = 0, t = -1 or 1", "step": 6, "score": 6, "branch": "None", "branch-level": "None"},
+    {"result": "g(-\\sqrt(2)) = -\\sqrt(2)/3, g(\\sqrt(2)) = \\sqrt(2)/3, g(-1) = -1/2, g(1) = 1/2", "step": 7, "score": 7, "branch": "None", "branch-level": "None"},
+    {"result": "maximum y is 1/2-(-1/2) = 1 when g(-1) = -1/2", "step": 8, "score": 8, "branch": "None", "branch-level": "None"}
+  ],
+  "result": "1"
+}

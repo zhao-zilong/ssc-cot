@@ -1,0 +1,13 @@
+{
+  "question": "In triangle ABC, angles A, B, and C satisfy the relation A = 3B = 9C, then find the value of cosAcosB + cosBcosC + cosCcosA",
+  "intermediate-results": [ 
+    {"result": "Let C=x, B=3x, A=9x, x+3x+9x=\\pi, x = \\pi/13", "step": 1, "score": 1, "branch": "None", "branch-level": "None"},
+    {"result": "cosAcosB + cosBcosC + cosCcosA = cos(9\\pi/13)cos(3\\pi/13) + cos(3\\pi/13)cos(\\pi/13) + cos(\\pi/13)cos(9\\pi/13)", "step": 2, "score": 2, "branch": "None", "branch-level": "None"},
+    {"result": "cos(9\\pi/13)cos(3\\pi/13) + cos(3\\pi/13)cos(\\pi/13) + cos(\\pi/13)cos(9\\pi/13) = 1/2((cos(12\\pi/13) + cos(6\\pi/13)) + (cos(4\\pi/13) + cos(2\\pi/13)) + (cos(10\\pi/13) + cos(8\\pi/13)))", "step": 3, "score": 3, "branch": "None", "branch-level": "None"},
+    {"result": "Let S denotes cosAcosB + cosBcosC + cosCcosA, 4S*sin(\\pi/13) = 2sin(\\pi/13)((cos(12\\pi/13) + cos(6\\pi/13)) + (cos(4\\pi/13) + cos(2\\pi/13)) + (cos(10\\pi/13) + cos(8\\pi/13)))", "step": 4, "score": 4, "branch": "None", "branch-level": "None"},
+    {"result": "2sin(\\pi/13)((cos(12\\pi/13) + cos(6\\pi/13)) + (cos(4\\pi/13) + cos(2\\pi/13)) + (cos(10\\pi/13) + cos(8\\pi/13))) = sin(3\\pi/13) - sin(\\pi/13) + sin(5\\pi/13) - sin(3\\pi/13) + sin(7\\pi/13) - sin(5\\pi/13)+ sin(9\\pi/13) - sin(7\\pi/13)+ sin(11\\pi/13) - sin(9\\pi/13)+ sin(13\\pi/13) - sin(11\\pi/13)", "step": 5, "score": 5, "branch": "None", "branch-level": "None"},
+    {"result": "sin(3\\pi/13) - sin(\\pi/13) + sin(5\\pi/13) - sin(3\\pi/13) + sin(7\\pi/13) - sin(5\\pi/13)+ sin(9\\pi/13) - sin(7\\pi/13)+ sin(11\\pi/13) - sin(9\\pi/13)+ sin(13\\pi/13) - sin(11\\pi/13) = -sin(\\pi/13)", "step": 6, "score": 6, "branch": "None", "branch-level": "None"},
+    {"result": "S = -1/4", "step": 7, "score": 7, "branch": "None", "branch-level": "None"}
+ ],
+  "result": "-1/4"
+} 

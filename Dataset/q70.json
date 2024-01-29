@@ -1,0 +1,11 @@
+{
+  "question": "In triangle ABC, the opposite sides of angles A, B, and C are a, b, and c respectively. The angles A, B, and C form an arithmetic sequence, and the sides a, b, and c form a geometric sequence. Find the value of sinAsinC.",
+  "intermediate-results": [
+    {"result": "2B = A+C = \\pi -  B", "step": 1, "score": 1, "branch": 1, "branch-level": 1},
+    {"result": "B = \\pi/3", "step": 2, "score": 2, "branch": 2, "branch-level": 1},
+    {"result": "b^2 = ac", "step": 3, "score": 3, "branch": 1, "branch-level": 2},
+    {"result": "(sinB)^2 = sinAsinC = 1-(cosB)^2", "step": 4, "score": 4, "branch":"None", "branch-level": "None"},
+    {"result": "sinAsinC = 3/4", "step": 5, "score": 5, "branch": "None", "branch-level": "None"}
+  ],
+  "result": "3/4"
+}

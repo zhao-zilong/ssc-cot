@@ -1,0 +1,13 @@
+{
+  "question": "Suppose acute angles A and B satisfy A != B, and ((cosA)^2 + (cosB)^2)(1+tanAtanB) = 2, then find the value of A+B.",
+  "intermediate-results": [ 
+    {"result": "1/((cosA)^2(cosB)^2)((cosA)^2 + (cosB)^2)(1+tanAtanB) = 2/((cosA)^2(cosB)^2)", "step": 1, "score": 1, "branch": "None", "branch-level": "None"},
+    {"result": "(2+(tanA)^2+(tanB)^2)(1+tanAtanB) = 2(1+(tanA)^2)(1+(tanB)^2)", "step": 2, "score": 2, "branch": "None", "branch-level": "None"},
+    {"result": "(tanA - tanB)^2(tanAtanB - 1) = 0", "step": 3, "score": 3, "branch": "None", "branch-level": "None"},
+    {"result": "because A != B, then tanAtanB - 1 = 0", "step": 4, "score": 4, "branch": "None", "branch-level": "None"},
+    {"result": "tanAtanB - 1 = (cosAcosB - sinAsinB)/(sinAsinB)", "step": 5, "score": 5, "branch":"None", "branch-level": "None"},
+    {"result": "cosAcosB - sinAsinB = cos(A+B) = 0", "step": 6, "score": 6, "branch": "None", "branch-level": "None"},
+    {"result": "A+B = 90", "step": 7, "score": 7, "branch": "None", "branch-level": "None"}
+  ],
+  "result": "90"
+}

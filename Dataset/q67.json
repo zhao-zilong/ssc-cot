@@ -1,0 +1,13 @@
+{
+  "question": "Find the value of csc10 - \\sqrt(3)sec10",
+  "original_form": "csc10 - \\sqrt(3)sec10",
+  "intermediate-results": [
+    {"result": "csc10 - \\sqrt(3)sec10 = 1/sin10 - \\sqrt(3)/cos10", "step": 1, "score": 1, "branch": "None", "branch-level": "None"},
+    {"result": "1/sin10 - \\sqrt(3)/cos10 = (cos10 - \\sqrt(3)sin10)/(sin10cos10)", "step": 2, "score": 2, "branch": "None", "branch-level": "None"},
+    {"result": "(cos10 - \\sqrt(3)sin10)/(sin10cos10) = 2(cos10 - \\sqrt(3)sin10)/(2sin10cos10)", "step": 3, "score": 3, "branch": "None", "branch-level": "None"},
+    {"result": "2(cos10 - \\sqrt(3)sin10)/(2sin10cos10) = 2(cos10 - \\sqrt(3)sin10)/(sin20)", "step": 4, "score": 4, "branch":"None", "branch-level": "None"},
+    {"result": "2(cos10 - \\sqrt(3)sin10)/(sin20) = 4(1/2cos10 - \\sqrt(3)/2sin10)/(sin20)", "step": 5, "score": 5, "branch": "None", "branch-level": "None"},
+    {"result": "4(1/2cos10 - \\sqrt(3)/2sin10)/(sin20) = 4sin(30-10)/sin20 = 4", "step": 6, "score": 6, "branch": "None", "branch-level": "None"}
+  ],
+  "result": "4"
+}

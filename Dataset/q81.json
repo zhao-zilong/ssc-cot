@@ -1,0 +1,11 @@
+{
+  "question": "It is known that the three side lengths a, b, and c of triangle ABC form a geometric sequence, and satisfy a>=b>=c, then the value range of A?",
+  "intermediate-results": [ 
+    {"result": "b^2 = ac", "step": 1, "score": 1, "branch": "None", "branch-level": "None"},
+    {"result": "cosB = (a^2+c^2 - b^2)/(2ac)", "step": 2, "score": 2, "branch": "None", "branch-level": "None"},
+    {"result": "cosB = 1/2(a/c + c/a - 1) >= 1/2", "step": 3, "score": 3, "branch": "None", "branch-level": "None"},
+    {"result": "B belongs to (0, \\pi/3]", "step": 4, "score": 4, "branch": "None", "branch-level": "None"},
+    {"result": "Since A>= B, A belongs to [\\pi/3, 2\\pi/3)", "step": 5, "score": 5, "branch":"None", "branch-level": "None"}
+  ],
+  "result": "[\\pi/3, 2\\pi/3)"
+}

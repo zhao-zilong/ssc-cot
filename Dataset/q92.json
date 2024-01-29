@@ -1,0 +1,12 @@
+{
+  "question": "It is known that a>0, let the function f(x) = (2009^(x+1) + 2007)/(2009^x + 1) + sin(x), when x belongs to [-a, a],  the maximum value of f(x) is M and the minimum value is N, then M+N=?",
+  "intermediate-results": [ 
+    {"result": "f(x) = 2008 + (2009^(x) -1)/(2009^(x) + 1) + sin(x)", "step": 1, "score": 1, "branch": "None", "branch-level": "None"},
+    {"result": "g(x) = (2009^(x) -1)/(2009^(x) + 1) + sin(x)", "step": 2, "score": 2, "branch": "None", "branch-level": "None"},
+    {"result": "g(x) is odd function", "step": 3, "score": 3, "branch": "None", "branch-level": "None"},
+    {"result": "g(-x) + g(x) = 0", "step": 4, "score": 4, "branch": "None", "branch-level": "None"},
+    {"result": "f(-x) + f(x) = 4016", "step": 5, "score": 5, "branch": "None", "branch-level": "None"},
+    {"result": "M + N = 4016", "step": 6, "score": 6, "branch": "None", "branch-level": "None"}
+ ],
+  "result": "4016"
+} 

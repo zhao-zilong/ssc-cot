@@ -1,0 +1,14 @@
+{
+
+  "question": "given A and B are positive real numbers and (Asin(\\pi/5) + Bcos(\\pi/5))/(Asin(\\pi/5) - Bcos(\\pi/5)) = tan(8\\pi/15), find the value of B/A.",
+  "intermediate-results": [
+    {"result": "(Asin(\\pi/5) + Bcos(\\pi/5))/(Asin(\\pi/5) - Bcos(\\pi/5)) = (sin(\\pi/5) + (B/A)cos(\\pi/5))/(sin(\\pi/5) - (B/A)cos(\\pi/5))", "step": 1, "score": 1, "branch": 1, "branch-level": 1},
+    {"result": "tan(8\\pi/15) = sin(8\\pi/15)/cos(8\\pi/15)", "step": 2, "score": 1, "branch": 2, "branch-level": 1},
+    {"result": "B/A = (sin(8\\pi/15)cos(\\pi/5) - cos(8\\pi/15)sin(\\pi/5))/(cos(8\\pi/15)cos(\\pi/5) + sin(8\\pi/15)sin(\\pi/5))", "step": 3, "score": 3, "branch": "None", "branch-level": "None"},
+    {"result": "(sin(8\\pi/15)cos(\\pi/5) - cos(8\\pi/15)sin(\\pi/5))/(cos(8\\pi/15)cos(\\pi/5) + sin(8\\pi/15)sin(\\pi/5)) = sin(8\\pi/15 - \\pi/5)/cos(8\\pi/15 - \\pi/5)", "step": 4, "score": 4, "branch": "None", "branch-level": "None"},
+    {"result": "sin(8\\pi/15 - \\pi/5)/cos(8\\pi/15 - \\pi/5) = tan(\\pi/3) = \\sqrt(3)", "step": 5, "score": 5, "branch": "None", "branch-level": "None"}
+  ],
+  "result": "\\sqrt(3)"
+  
+
+}

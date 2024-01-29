@@ -1,0 +1,19 @@
+{
+  "question": "In acute triangle ABC, if sinA=2sinBsinC, find the minimum value of tanAtanBtanC.",
+  "intermediate-results": [
+    {"result": "sinA = sin(\\pi - A) = sin(B+C)", "step": 1, "score": 1, "branch": "None", "branch-level": "None"},
+    {"result": "sin(B+C) = sinBcosC + cosBsinC", "step": 2, "score": 2, "branch": "None", "branch-level": "None"},
+    {"result": "sinA = 2sinBsinC = sinBcosC + cosBsinC", "step": 3, "score": 3, "branch": "None", "branch-level": "None"},
+    {"result": "tanB + tanC = 2tanBtanC", "step": 4, "score": 4, "branch": "None", "branch-level": "None"},
+    {"result": "tanA = -tan(\\pi - A) = -tan(B+C)", "step": 5, "score": 5, "branch": "None", "branch-level": "None"},
+    {"result": "tanA = -tan(B+C) = - (tanB + tanC)/(1 - tanBtanC)", "step": 6, "score": 6, "branch": "None", "branch-level": "None"},
+    {"result": "tanAtanBtanC = - (tanB + tanC)/(1 - tanBtanC)*tanBtanC", "step": 7, "score": 7, "branch": "None", "branch-level": "None"},
+    {"result": "set tanBtanC = t, 1 - tanBtanC < 0, t > 1", "step": 8, "score": 8, "branch": "None", "branch-level": "None"},
+    {"result": "tanAtanBtanC = -2t^2/(1-t)", "step": 9, "score": 9, "branch": "None", "branch-level": "None"},
+    {"result": "-2t^2/(1-t) = 2/(1/t^2 - 1/t)", "step": 10, "score": 10, "branch": "None", "branch-level": "None"},
+    {"result": "(1/t^2 - 1/t) = (1/t - 1/2)^2 - 1/4", "step": 11, "score": 11, "branch": "None", "branch-level": "None"},
+    {"result": "0<=(1/t - 1/2)^2<1/4", "step": 12, "score": 12, "branch": "None", "branch-level": "None"},
+    {"result": "minimum value of tanAtanBtanC is 8", "step": 13, "score": 13, "branch": "None", "branch-level": "None"}
+  ],
+  "result": "8"
+}

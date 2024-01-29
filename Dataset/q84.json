@@ -1,0 +1,12 @@
+{
+  "question": "If f(A) = cosA/cos(30-A), then find the value of f(1)+f(2)+...+f(60).",
+  "intermediate-results": [ 
+    {"result": "f(A) + f(60-A) = cosA/cos(30-A) + cos(60-A)/cos(A-30)", "step": 1, "score": 1, "branch": "None", "branch-level": "None"},
+    {"result": "cosA/cos(30-A) + cos(60-A)/cos(A-30) = (cosA + cos(60-A))/cos(A-30)", "step": 2, "score": 2, "branch": "None", "branch-level": "None"},
+    {"result": "(cosA + cos(60-A))/cos(A-30) = 2cos30cos(A-30)/cos(A-30)", "step": 3, "score": 3, "branch": "None", "branch-level": "None"},
+    {"result": "2cos30cos(A-30)/cos(A-30) = \\sqrt(3)", "step": 4, "score": 4, "branch": "None", "branch-level": "None"},
+    {"result": "f(1) + f(59) + f(2) + f(58) + ... + f(29) + f(31) + f(30) + f(60) = 29\\sqrt(3) + \\sqrt(3)/2 + \\sqrt(3)/3", "step": 5, "score": 5, "branch": "None", "branch-level": "None"},
+    {"result": "29\\sqrt(3) + \\sqrt(3)/2 + \\sqrt(3)/3 = 179\\sqrt(3)/6", "step": 6, "score": 6, "branch": "None", "branch-level": "None"}
+  ],
+  "result": "179\\sqrt(3)/6"
+}

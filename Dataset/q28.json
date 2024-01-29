@@ -1,0 +1,12 @@
+{
+  "question": "Find the value of sin36sin72sin108sin144. Hint: sin18 = (\\sqrt(5) - 1)/4, cos36 = (\\sqrt(5) + 1)/4",
+  "intermediate-results": [
+    {"result": "sin36sin72sin108sin144 = (sin36)^2(sin72)^2", "step": 1, "score": 1, "branch": "None", "branch-level": "None"},
+    {"result": "(sin36)^2(sin72)^2 = 1/4(2(sin36)^2*2(sin72)^2)", "step": 2, "score": 2, "branch": "None", "branch-level": "None"},
+    {"result": "1/4(2(sin36)^2*2(sin72)^2) = 1/4((1-cos72)(1-cos144))", "step": 3, "score": 3, "branch": 1, "branch-level": 1},
+    {"result": "1/4((1-cos72)(1-cos144)) = 1/4((1-sin18)(1+cos36))", "step": 4, "score": 3, "branch": 2, "branch-level": 1},
+    {"result": "1/4((1-sin18)(1+cos36)) = 1/4((1 - (\\sqrt(5) - 1)/4)(1 + (\\sqrt(5)+1)/4))", "step": 5, "score": 5, "branch": "None", "branch-level": "None"},
+    {"result": "1/4((1 - (\\sqrt(5) - 1)/4)(1 + (\\sqrt(5)+1)/4)) = 5/16", "step": 6, "score": 6, "branch": "None", "branch-level": "None"}
+  ],
+  "result": "5/16"
+}

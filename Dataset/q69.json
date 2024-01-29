@@ -1,0 +1,11 @@
+{
+  "question": "Find the value of cos40(1+\\sqrt(3)cot20)",
+  "intermediate-results": [
+    {"result": "cos40(1+\\sqrt(3)cot20) = cos40(1+(cos30/sin30)(sin10/cos10))", "step": 1, "score": 1, "branch": "None", "branch-level": "None"},
+    {"result": "cos40(1+(cos30/sin30)(sin10/cos10)) = cos40(sin30cos10+cos30sin10)/sin30cos10", "step": 2, "score": 2, "branch": "None", "branch-level": "None"},
+    {"result": "cos40(sin30cos10+cos30sin10)/sin30cos10 = (cos40sin40)/sin30cos10", "step": 3, "score": 3, "branch": "None", "branch-level": "None"},
+    {"result": "(cos40sin40)/sin30cos10 = 2(cos40sin40)/cos10", "step": 4, "score": 4, "branch":"None", "branch-level": "None"},
+    {"result": "2(cos40sin40)/cos10 = sin80/sin80 = 1", "step": 5, "score": 5, "branch": "None", "branch-level": "None"}
+  ],
+  "result": "1"
+}

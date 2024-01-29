@@ -1,0 +1,13 @@
+{
+  "question": "The real numbers x and y satisfy (x-1)^2/9 + (y+1)^2/16 = 1. If x+y-k>0 is always true, the value range of k is?",
+  "intermediate-results": [
+    {"result": "set (x-1)^2/9 = (cosA)^2, (y+1)^2/16 = (sinA)^2", "step": 1, "score": 1, "branch": "None", "branch-level": "None"},
+    {"result": "x = 1 + 3cosA, y = 4sinA - 1", "step": 2, "score": 2, "branch": "None", "branch-level": "None"},
+    {"result": "x + y - k = 1 + 3cosA + 4sinA - 1 -k >0", "step": 3, "score": 3, "branch": "None", "branch-level": "None"},
+    {"result": "k < minimum of 3cosA + 4sinA", "step": 4, "score": 4, "branch": "None", "branch-level": "None"},
+    {"result": "3cosA + 4sinA = 5sin(A + B) >= -5", "step": 5, "score": 5, "branch": "None", "branch-level": "None"},
+    {"result": "minimum of  3cosA + 4sinA is -5", "step": 6, "score": 6, "branch": "None", "branch-level": "None"},
+    {"result": "k < -5", "step": 7, "score": 7, "branch": "None", "branch-level": "None"}
+  ],
+  "result": "k < -5"
+}

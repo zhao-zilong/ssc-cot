@@ -1,0 +1,13 @@
+{
+  "question": "If A + B + C = \\pi, prove that cos(2A) + cos(2B) + cos(2C) = -1 - 4cosAcosBcosC",
+  "intermediate-results": [
+    {"result": "cos(2A) + cos(2B) + cos(2C) = 2cos(A+B)cos(A-B) + (2(cos(C))^2 - 1)", "step": 1, "score": 1, "branch": "None", "branch-level": "None"},
+    {"result": "2cos(A+B)cos(A-B) + (2(cos(C))^2 - 1) = 2cos(\\pi-C)cos(A-B) + 2(cos(C))^2 - 1", "step": 2, "score": 2, "branch": "None", "branch-level": "None"},
+    {"result": "2cos(\\pi-C)cos(A-B) + 2(cos(C))^2 - 1 = -2cos(C)cos(A-B) + 2(cos(C))^2 - 1", "step": 3, "score": 3, "branch": "None", "branch-level": "None"},
+    {"result": "-2cos(C)cos(A-B) + 2(cos(C))^2 - 1 = - 1 - 2cos(C)(cos(A-B) - cos(C))", "step": 4, "score": 4, "branch": "None", "branch-level": "None"},
+    {"result": "- 1 - 2cos(C)(cos(A-B) - cos(C)) = - 1 - 2cos(C)(cos(A-B) - cos(\\pi - (A+B)))", "step": 5, "score": 5, "branch": "None", "branch-level": "None"},
+    {"result": "- 1 - 2cos(C)(cos(A-B) - cos(\\pi - (A+B))) = - 1 - 2cos(C)(cos(A-B) + cos(A+B))", "step": 6, "score": 6, "branch": "None", "branch-level": "None"},
+    {"result": "- 1 - 2cos(C)(cos(A-B) + cos(A+B)) = - 1 - 4cosAcosBcosC", "step": 7, "score": 7, "branch": "None", "branch-level": "None"}
+  ],
+  "result": "Q.E.D"
+}

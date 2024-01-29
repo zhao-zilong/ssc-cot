@@ -1,0 +1,15 @@
+{
+  "question": "Find the degree measure of the least positive angle A for which Tan(A) = (cos(5)cos(20) + cos(35)cos(50) - sin(5)sin(20) - sin(35)sin(50))/(sin(5)cos(20) - sin(35)cos(50) + cos(5)sin(20) - cos(35)sin(50)).",
+  "intermediate-results": [ 
+    {"result": "(cos(5)cos(20) + cos(35)cos(50) - sin(5)sin(20) - sin(35)sin(50)) = cos(5+20) + cos(35+50)", "step": 1, "score": 1, "branch": 1, "branch-level": 1},
+    {"result": "cos(5+20) + cos(35+50) = 2cos((25+85)/2)cos((25-85)/2) = 2cos55cos(-30)", "step": 2, "score": 2, "branch": 2, "branch-level": 1},
+    {"result": "2cos55cos(30) = 2cos55cos(30)", "step": 3, "score": 3, "branch": 1, "branch-level": 1},
+    {"result": "(sin(5)cos(20) - sin(35)cos(50) + cos(5)sin(20) - cos(35)sin(50)) = sin(5+20) - sin(35+50)", "step": 4, "score": 1, "branch": 2, "branch-level": 1},
+    {"result": "sin(5+20) - sin(35+50) = 2cos((25+85)/2)sin((25-85)/2) = 2cos55sin(-30)", "step": 5, "score": 2, "branch": 2, "branch-level": 1},
+    {"result": "2cos55sin(-30) = -2cos55sin30", "step": 6, "score": 3, "branch": 2, "branch-level": 1},
+    {"result": "tan(A) = 2cos55cos30/(-2cos55sin30) = -cos30/sin30", "step": 7, "score": 7, "branch": "None", "branch-level": "None"},
+    {"result": "tan(A) = -\\sqrt(3)", "step": 8, "score": 8, "branch": "None", "branch-level": "None"},
+    {"result": "A = 120", "step": 9, "score": 9, "branch": "None", "branch-level": "None"}
+ ],
+  "result": "120"
+} 

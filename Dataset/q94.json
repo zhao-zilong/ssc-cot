@@ -1,0 +1,12 @@
+{
+  "question": "Find value of ((sin(A))^4 - (cos(A))^4 + 1)(csc(A))^2.",
+  "intermediate-results": [ 
+    {"result": "((sin(A))^4 - (cos(A))^4 + 1)(csc(A))^2 = (( (sin(A))^2-(cos(A))^2 )( (sin(A))^2+(cos(A))^2 )+1)(csc(A))^2", "step": 1, "score": 1, "branch": "None", "branch-level": "None"},
+    {"result": "(sin(A))^2+(cos(A))^2 = 1", "step": 2, "score": 2, "branch": "None", "branch-level": "None"},
+    {"result": "(((sin(A))^2-(cos(A))^2)((sin(A))^2+(cos(A))^2)+1)(csc(A))^2 = ((sin(A))^2-(cos(A))^2+1)(csc(A))^2", "step": 3, "score": 3, "branch": "None", "branch-level": "None"},
+    {"result": "((sin(A))^2-(cos(A))^2+1)(csc(A))^2 = ((sin(A))^2-(1-(sin(A))^2)+1)(csc(A))^2", "step": 4, "score": 4, "branch": "None", "branch-level": "None"},
+    {"result": "((sin(A))^2-(1-(sin(A))^2)+1)(csc(A))^2 = 2(sin(A))^2(csc(A))^2", "step": 5, "score": 5, "branch": "None", "branch-level": "None"},
+    {"result": "2(sin(A))^2(csc(A))^2 = 2", "step": 6, "score": 6, "branch": "None", "branch-level": "None"}
+ ],
+  "result": "2"
+} 

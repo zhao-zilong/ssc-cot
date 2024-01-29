@@ -1,0 +1,12 @@
+{
+  "question": "Prove 4sin40 - tan40 = \\sqrt(3)",
+  "intermediate-results": [
+    {"result": "4sin40 = \\sqrt(3) + tan40", "step": 1, "score": 1, "branch": "None", "branch-level": "None"},
+    {"result": "\\sqrt(3) + tan40 = (\\sqrt(3)cos40 + sin40)/cos40", "step": 2, "score": 2, "branch": "None", "branch-level": "None"},
+    {"result": "(\\sqrt(3)cos40 + sin40)/cos40 = (\\sqrt(3)/2cos40 + 1/2sin40)/(1/2cos40)", "step": 3, "score": 3, "branch": "None", "branch-level": "None"},
+    {"result": "(\\sqrt(3)/2cos40 + 1/2sin40)/(1/2cos40) = 2sin(40 + 60)/cos40", "step": 4, "score": 4, "branch":"None", "branch-level": "None"},
+    {"result": "2sin(40 + 60)/cos40 = 2sin(80)/cos40", "step": 5, "score": 5, "branch": "None", "branch-level": "None"},
+    {"result": "2sin(80)/cos40 = 2*2sin(40)cos40/cos40 = 4sin40", "step": 6, "score": 6, "branch": "None", "branch-level": "None"}
+  ],
+  "result": "Q.E.D"
+}

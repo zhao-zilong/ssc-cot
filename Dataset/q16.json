@@ -1,0 +1,12 @@
+{
+  "question": "If 3sinA - sinB = \\sqrt(10), A + B = \\pi/2, then find the value of cos2B.",
+  "intermediate-results": [
+    {"result": "3sinA - sinB = 3sinA - cosA = \\sqrt(10)", "step": 1, "score": 1, "branch": "None", "branch-level": "None"},
+    {"result": "cosA = 3sinA - \\sqrt(10)", "step": 2, "score": 2, "branch": "None", "branch-level": "None"},
+    {"result": "(sinA)^2 + (3sinA - \\sqrt(10))^2 = 1", "step": 3, "score": 3, "branch": "None", "branch-level": "None"},
+    {"result": "sinA = 3\\sqrt(10)/10", "step": 4, "score": 4, "branch": "None", "branch-level": "None"},
+    {"result": "cosB = sinA = 3\\sqrt(10)/10", "step": 5, "score": 5, "branch": "None", "branch-level": "None"},
+    {"result": "cos2B = 2(cosB)^2 - 1 = 2*90/100 - 1 = 4/5", "step": 6, "score": 6, "branch": "None", "branch-level": "None"}
+  ],
+  "result": "4/5"
+}

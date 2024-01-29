@@ -1,0 +1,14 @@
+{
+  "question": "In triangle ABC, the opposite sides of angles A, B, and C are a, b, and c respectively and sinA(sinA + 2\\sqrt(3)sinBsinC) = 3(sinB)^2 + 3(sinC)^2, then C=?",
+  "intermediate-results": [
+    {"result": "a^2 + 2\\sqrt(3)ab(sinC) = 3b^2 + 3c^2", "step": 1, "score": 1, "branch": "None", "branch-level": "None"},
+    {"result": "3b^2 + 3c^2 = 3b^2 + 3a^2 + 3b^2 - 6ab(cosC)", "step": 2, "score": 2, "branch": "None", "branch-level": "None"},
+    {"result": "2\\sqrt(3)ab(sinC) + 6ab(cosC) = 2a^2 + 6b^2", "step": 3, "score": 3, "branch": "None", "branch-level": "None"},
+    {"result": "\\sqrt(3)(sinC) + 3(cosC) = (a^2 + 3b^2)/(ab)", "step": 4, "score": 4, "branch": "None", "branch-level": "None"},
+    {"result": "\\sqrt(3)(sinC) + 3(cosC) = 2\\sqrt(3)sin(C+\\pi/3) <= 2\\sqrt(3)", "step": 5, "score": 5, "branch": 1, "branch-level": 1},
+    {"result": "(a^2 + 3b^2)/(ab) = a/b + 3b/a >= 2\\sqrt(3)", "step": 6, "score": 5, "branch": 1, "branch-level": 1},
+    {"result": "\\sqrt(3)(sinC) + 3(cosC) = (a^2 + 3b^2)/(ab) = 2\\sqrt(3)", "step": 7, "score": 7, "branch": "None", "branch-level": "None"},
+    {"result": "C = \\pi/6", "step": 8, "score": 8, "branch": "None", "branch-level": "None"}
+  ],
+  "result": "\\pi/6"
+}

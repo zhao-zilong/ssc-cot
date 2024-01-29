@@ -1,0 +1,13 @@
+{
+  "question": "Find the value of cos36 - cos72",
+  "intermediate-results": [ 
+    {"result": "cos36 - cos72 = -2sin54sin(-18)", "step": 1, "score": 1, "branch": "None", "branch-level": "None"},
+    {"result": "-2sin54sin(-18) = 2sin54sin18", "step": 1, "score": 2, "branch": "None", "branch-level": "None"},
+    {"result": "2sin54sin18 = 2cos36cos72", "step": 3, "score": 3, "branch": "None", "branch-level": "None"},
+    {"result": "2cos36cos72 = 4sin36cos36cos72/(2sin36)", "step": 4, "score": 4, "branch": "None", "branch-level": "None"},
+    {"result": "4sin36cos36cos72/(2sin36) = 2sin72cos72/(2sin36)", "step": 5, "score": 5, "branch": "None", "branch-level": "None"},
+    {"result": "2sin72cos72/(2sin36) = sin144/(2sin36)", "step": 6, "score": 6, "branch": "None", "branch-level": "None"},
+    {"result": "sin144/(2sin36) = sin36/(2sin36) = 1/2", "step": 7, "score": 7, "branch": "None", "branch-level": "None"}
+ ],
+  "result": "1/2"
+} 

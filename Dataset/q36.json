@@ -1,0 +1,11 @@
+{
+  "question": "Find value of sin12sin48sin54. Hint: cos36 = (1+\\sqrt(5))/4.",
+  "intermediate-results": [
+    {"result": "sin12sin48 = 1/2(cos(12-48) - cos(12+48))", "step": 1, "score": 1, "branch": "None", "branch-level": "None"},
+    {"result": "sin12sin48sin54 = 1/2(cos(12-48) - cos(12+48))sin(90 - 36)", "step": 2, "score": 2, "branch": "None", "branch-level": "None"},
+    {"result": "1/2(cos(12-48) - cos(12+48))sin(90 - 36) = 1/2(cos36 - cos60)cos36", "step": 3, "score": 3, "branch": "None", "branch-level": "None"},
+    {"result": "1/2(cos36 - cos60)cos36 = 1/2((1+\\sqrt(5))/4 - 1/2)((1+\\sqrt(5))/4)", "step": 4, "score": 4, "branch": "None", "branch-level": "None"},
+    {"result": "1/2((1+\\sqrt(5))/4 - 1/2)((1+\\sqrt(5))/4) = 1/8", "step": 5, "score": 5, "branch": "None", "branch-level": "None"}
+  ],
+  "result": "1/8"
+}

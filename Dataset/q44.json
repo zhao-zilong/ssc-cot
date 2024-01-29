@@ -1,0 +1,15 @@
+{
+  "question": "In triangle ABC, the opposite sides of angles A, B, and C are a, b, and c respectively, satisfying a^2 -2a(sinB + \\sqrt(3)cosB) + 4 = 0, b = 2\\sqrt(7), find the area of ABC.",
+  "intermediate-results": [
+    {"result": "a^2 + 4 = 2a(sinB + \\sqrt(3)cosB)", "step": 1, "score": 1, "branch": "None", "branch-level": "None"},
+    {"result": "(a^2 + 4)/(2a) = (sinB + \\sqrt(3)cosB)", "step": 2, "score": 2, "branch": "None", "branch-level": "None"},
+    {"result": "(a^2 + 4)/(2a) >= 4a/(2a) = 2", "step": 3, "score": 3, "branch": 1, "branch-level": 1},
+    {"result": "(sinB + \\sqrt(3)cosB) = 2sin(B+\\pi/3) <= 2", "step": 4, "score": 3, "branch": 1, "branch-level": 1},
+    {"result": "(a^2 + 4)/(2a) = (sinB + \\sqrt(3)cosB) = 2", "step": 5, "score": 5, "branch": "None", "branch-level": "None"},
+    {"result": "a = 6, B = \\pi/6", "step": 6, "score": 6, "branch": "None", "branch-level": "None"},
+    {"result": "b^2 = a^2 + c^2 -2ac(cosB), c^2 - 2\\sqrt(3)c - 24 = 0", "step": 7, "score": 7, "branch": "None", "branch-level": "None"},
+    {"result": "c = 4\\sqrt(3)", "step": 8, "score": 8, "branch": "None", "branch-level": "None"},
+    {"result": "area of ABC  = 1/2ac(sinB) = 2\\sqrt(3)", "step": 8, "score": 8, "branch": "None", "branch-level": "None"}
+  ],
+  "result": "2\\sqrt(3)"
+}

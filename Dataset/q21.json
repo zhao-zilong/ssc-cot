@@ -1,0 +1,15 @@
+{
+  "question": "sinA - cosB = 3cosA - 3sinB and sin(A+B) not equals to 1, find the value of sin(A-B).",
+  "intermediate-results": [
+    {"result": "sinA - cosB = sinA - sin(B + \\pi/2)", "step": 1, "score": 1, "branch": 1, "branch-level": 1},
+    {"result": "sinA - sin(B + \\pi/2) = 2cos((A+B)/2 + \\pi/4)sin((A-B)/2 - \\pi/4)", "step": 2, "score": 2, "branch": 1, "branch-level": 1},
+    {"result": "3cosA - 3sinB = 3(cosA + cos(B + \\pi/2))", "step": 3, "score": 1, "branch": 2, "branch-level": 1},
+    {"result": "3(cosA + cos(B + \\pi/2)) = 6cos((A+B)/2 + \\pi/4)cos((A-B)/2 - \\pi/4)", "step": 4, "score": 2, "branch": 2, "branch-level": 1},
+    {"result": "2sin((A-B)/2 - \\pi/4) = 6cos((A-B)/2 - \\pi/4)", "step": 5, "score": 5, "branch": "None", "branch-level": "None"},
+    {"result": "tan((A-B)/2 - \\pi/4) = 3", "step": 6, "score": 6, "branch": "None", "branch-level": "None"},
+    {"result": "tan((A-B)) = -2", "step": 7, "score": 7, "branch": "None", "branch-level": "None"},
+    {"result": "sin(A-B) = 2tan((A-B)/2)/(1 + (tan((A-B)/2))^2)", "step": 8, "score": 8, "branch": "None", "branch-level": "None"},
+    {"result": "2tan((A-B)/2)/(1 + (tan((A-B)/2))^2) = -4/5", "step": 9, "score": 9, "branch": "None", "branch-level": "None"}
+  ],
+  "result": "-4/5"
+}

@@ -1,0 +1,12 @@
+{
+  "question": "Assume that the lengths of the sides opposite to the three interior angles A, B, and C of triangle ABC are a, b, and c respectively. If b+c-a=2, then find the value of b^2(sin(C/2))^2 + c^2(sin(B/2))^2 - 2bcsin(A/2)sin(B/2)sin(C/2)",
+  "intermediate-results": [ 
+    {"result": "b^2(sin(C/2))^2 + c^2(sin(B/2))^2 = 1/2b^2(1-cosC) + 1/2c^2(1-cosB)", "step": 1, "score": 1, "branch": 1, "branch-level": 1},
+    {"result": "2bcsin(A/2)sin(B/2)sin(C/2) = 1/2*bc(cosA+cosB+cosC-1)", "step": 2, "score": 1, "branch": 2, "branch-level": 1},
+    {"result": "1/2b^2(1-cosC) + 1/2c^2(1-cosB) - 1/2*bc(cosA+cosB+cosC-1) = 1/4(b^2+c^2+2bc) - 1/2b(bcosC + ccosB) -1/2c(ccosB+bcosC) + 1/4(b^2+c^2 -2bccosA)", "step": 3, "score": 3, "branch": "None", "branch-level": "None"},
+    {"result": "1/4(b^2+c^2+2bc) - 1/2b(bcosC + ccosB) -1/2c(ccosB+bcosC) + 1/4(b^2+c^2 -2bccosA) = 1/4(b^2+c^2+2bc) -1/2bc -1/2ac + 1/4a^2", "step": 4, "score": 4, "branch": "None", "branch-level": "None"},
+    {"result": "1/4(b^2+c^2+2bc) -1/2bc -1/2ac + 1/4a^2 = ((b+c-a)/2)^2", "step": 5, "score": 5, "branch": "None", "branch-level": "None"},
+    {"result": "((b+c-a)/2)^2 = 1", "step": 6, "score": 6, "branch": "None", "branch-level": "None"}
+  ],
+  "result": "1"
+}

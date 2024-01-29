@@ -1,0 +1,12 @@
+{
+  "question": "The opposite sides of interior angles A, B, and C of triangle ABC are a, b, and c respectively. It is known that sin(2C) = \\sqrt(3)sinC . If b = 6, area of ABC is 6\\sqrt(3), find the perimeter of ABC.",
+  "intermediate-results": [
+    {"result": "\\sqrt(3)sinC = 2sinCcosC", "step": 1, "score": 1, "branch": "None", "branch-level": "None"},
+    {"result": "cosC = \\sqrt(3)/2, C = \\pi/6", "step": 2, "score": 2, "branch": "None", "branch-level": "None"},
+    {"result": "area of ABC = 1/2(ab)sinC = 6\\sqrt(3), a = 4\\sqrt(3)", "step": 3, "score": 3, "branch": "None", "branch-level": "None"},
+    {"result": "c^2 = a^2 + b^2 - 2abcosC = 48 + 36 -2*4\\sqrt(3)*6*\\sqrt(3)/2 = 12", "step": 4, "score": 4, "branch": "None", "branch-level": "None"},
+    {"result": "c = 2\\sqrt(3)", "step": 5, "score": 5, "branch": "None", "branch-level": "None"},
+    {"result": "perimeter of ABC = 6\\sqrt(3) + 6", "step": 6, "score": 6, "branch": "None", "branch-level": "None"}
+  ],
+  "result": "6\\sqrt(3) + 6"
+}

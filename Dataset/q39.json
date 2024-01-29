@@ -1,0 +1,11 @@
+{
+  "question": "If f(A) = cos(A) - sin(A) is a decreasing function on (-x,x), then the maximum value of x is?",
+  "intermediate-results": [
+    {"result": "f'(A) = -sinA - cosA", "step": 1, "score": 1, "branch": "None", "branch-level": "None"},
+    {"result": "-sinA - cosA = -\\sqrt(2)sin(A + \\pi/4)", "step": 2, "score": 2, "branch": "None", "branch-level": "None"},
+    {"result": "f'(A) <= 0 when A belongs to [-x, x]", "step": 3, "score": 3, "branch": "None", "branch-level": "None"},
+    {"result": "sin(A + \\pi/4)>= 0 when A belongs to [-x, x]", "step": 4, "score": 4, "branch": "None", "branch-level": "None"},
+    {"result": "maximum value of x is \\pi/4", "step": 5, "score": 5, "branch": "None", "branch-level": "None"}
+  ],
+  "result": "\\pi/4"
+}

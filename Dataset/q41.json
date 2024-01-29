@@ -1,0 +1,18 @@
+{
+  "question": "It is known that the function f(A) = sin(2wA) - 2\\sqrt(3)(cos(wA))^2+1, w > 0. f(A) does not exist extreme point in the interval (\\pi, 2\\pi), then what is the value range of w?",
+  "intermediate-results": [
+    {"result": "f(A)  = 2sin(2wA - \\pi/3) - \\sqrt(3) + 1", "step": 1, "score": 1, "branch": "None", "branch-level": "None"},
+    {"result": "T (frequency) = (2\\pi)/(2w), 2\\pi - \\pi < T/2, 0 < w < 1/2", "step": 2, "score": 2, "branch": "None", "branch-level": "None"},
+    {"result": "f'(A) = 4wcos(2wA - \\pi/3)", "step": 3, "score": 3, "branch": "None", "branch-level": "None"},
+    {"result": "when f'(A) > 0, cos(2wA - \\pi/3) > 0", "step": 4, "score": 4, "branch": 1, "branch-level": 1},
+    {"result": "2wA - \\pi/3 belongs to (2w\\pi - \\pi/3, 4w\\pi - \\pi/3)", "step": 5, "score": 5, "branch": 1, "branch-level": 1},
+    {"result": "2w\\pi - \\pi/3 > -\\pi/2 and 4w\\pi - \\pi/3 < \\pi/2", "step": 6, "score": 6, "branch": 1, "branch-level": 1},
+    {"result": "0 < w < 5/24", "step": 7, "score": 7, "branch": 1, "branch-level": 1},
+    {"result": "when f'(A) < 0, cos(2wA - \\pi/3) < 0", "step": 8, "score": 4, "branch": 2, "branch-level": 1},
+    {"result": "2wA - \\pi/3 belongs to (2w\\pi - \\pi/3, 4w\\pi - \\pi/3)", "step": 9, "score": 5, "branch": 1, "branch-level": 1},
+    {"result": "2w\\pi - \\pi/3 > \\pi/2 and 4w\\pi - \\pi/3 < 3\\pi/2", "step": 10, "score": 6, "branch": 1, "branch-level": 1},
+    {"result": "5/12 < w < 11/24", "step": 11, "score": 7, "branch": 1, "branch-level": 1},
+    {"result": "w belongs to (0, 5/24) and (5/12, 11/24)", "step": 12, "score": 12, "branch": "None", "branch-level": "None"}
+  ],
+  "result": "w belongs to (0, 5/24) and (5/12, 11/24)"
+}

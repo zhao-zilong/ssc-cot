@@ -1,0 +1,11 @@
+{
+  "question": "Prove (1+cos(A)+cos(2A))/(sin(A) + sin(2A)) = cot(A)",
+  "intermediate-results": [ 
+    {"result": "1+cos(A)+cos(2A) = 1+cos(A) + 2(cos(A)^2) - 1", "step": 1, "score": 1, "branch": 1, "branch-level": 1},
+    {"result": "sin(A) + sin(2A) = sin(A) + 2sin(A)cos(A)", "step": 2, "score": 1, "branch": 2, "branch-level": 1},
+    {"result": "(1+cos(A) + 2(cos(A)^2) - 1)/(sin(A) + 2sin(A)cos(A)) = (cos(A) + 2(cos(A)^2))/(sin(A) + 2sin(A)cos(A))", "step": 3, "score": 3, "branch": "None", "branch-level": "None"},
+    {"result": "(cos(A) + 2(cos(A)^2))/(sin(A) + 2sin(A)cos(A)) = cos(A)(1 + 2cos(A))/(sin(A)(1 + 2cos(A)))", "step": 4, "score": 4, "branch": "None", "branch-level": "None"},
+    {"result": "cos(A)(1 + 2cos(A))/(sin(A)(1 + 2cos(A))) = cos(A)/sin(A) = cot(A)", "step": 5, "score": 5, "branch": "None", "branch-level": "None"}
+ ],
+  "result": "Q.E.D"
+} 

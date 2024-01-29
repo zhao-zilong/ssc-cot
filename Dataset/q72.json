@@ -1,0 +1,15 @@
+{
+  "question": "In triangle ABC, sides a, b, and c form a geometric sequence, then the value range of (sinAcotC + cosA)/(sinBcotC + cosB) is?",
+  "intermediate-results": [
+    {"result": "Let the common ratio of a, b, c be q, then b=aq, c=aq^2", "step": 1, "score": 1, "branch": "None", "branch-level": "None"},
+    {"result": "(sinAcotC + cosA)/(sinBcotC + cosB) = (sinAcosC/sinC+cosA)/(sinBcosC/sinC+cosB)", "step": 2, "score": 2, "branch": "None", "branch-level": "None"},
+    {"result": "(sinAcosC/sinC+cosA)/(sinBcosC/sinC+cosB) = (sinAcosC+cosAsinC)/(sinBcosC+cosBsinC)", "step": 3, "score": 3, "branch": "None", "branch-level": "None"},
+    {"result": "(sinAcosC+cosAsinC)/(sinBcosC+cosBsinC) = sin(A+C)/sin(B+C)", "step": 4, "score": 4, "branch":"None", "branch-level": "None"},
+    {"result": "sin(A+C)/sin(B+C) = sinB/sinA = b/a = q", "step": 5, "score": 5, "branch": "None", "branch-level": "None"},
+    {"result": "a+b>c and b+c>a", "step": 6, "score": 6, "branch": "None", "branch-level": "None"},
+    {"result": "a+aq>aq^2, aq+aq^2>a", "step": 7, "score": 7, "branch": "None", "branch-level": "None"},
+    {"result": "q^2 - q - 1 < 0, q^2 + q - 1 > 0", "step": 8, "score": 8, "branch": "None", "branch-level": "None"},
+    {"result": "(\\sqrt(5) - 1)/2 < q < (\\sqrt(5) - 1)/2", "step": 9, "score": 9, "branch": "None", "branch-level": "None"}
+  ],
+  "result": "((\\sqrt(5) - 1)/2, (\\sqrt(5) - 1)/2)"
+}

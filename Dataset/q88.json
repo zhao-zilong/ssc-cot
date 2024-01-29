@@ -1,0 +1,12 @@
+{
+  "question": "In triangle ABC, the sides corresponding to angles A, B, and C are a, b, and c. If c=2, b=\\sqrt(2)a, then find the maximum area of triangle ABC?",
+  "intermediate-results": [ 
+    {"result": "cosA = (b^2+c^2-a^2)/(2bc) = (a^2+4)/(4\\sqrt(2)a)", "step": 1, "score": 1, "branch": "None", "branch-level": "None"},
+    {"result": "sinA = \\sqrt(1 - ((a^2+4)/(4\\sqrt(2)a))^2)", "step": 2, "score": 2, "branch": "None", "branch-level": "None"},
+    {"result": "Area of ABC = 1/2bcsinA = \\sqrt(2)a\\sqrt(1 - ((a^2+4)/(4\\sqrt(2)a))^2)", "step": 3, "score": 3, "branch": "None", "branch-level": "None"},
+    {"result": "\\sqrt(2)a\\sqrt(1 - ((a^2+4)/(4\\sqrt(2)a))^2) = 1/4\\sqrt(-a^4+24a^2-16)", "step": 4, "score": 4, "branch": "None", "branch-level": "None"},
+    {"result": "1/4\\sqrt(-a^4+24a^2-16) = 1/4\\sqrt(-(a^2-12)^2+128)", "step": 5, "score": 5, "branch": "None", "branch-level": "None"},
+    {"result": "1/4\\sqrt(-(a^2-12)^2+128) <= 1/4\\sqrt(128) = 2\\sqrt(2)", "step": 6, "score": 6, "branch": "None", "branch-level": "None"}
+ ],
+  "result": "2\\sqrt(2)"
+} 

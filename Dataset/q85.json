@@ -1,0 +1,14 @@
+{
+  "question": "It is known that cosA+cosB = 1, then the value range of sinA - sinB is?",
+  "intermediate-results": [ 
+    {"result": "let t = sinA - sinB", "step": 1, "score": 1, "branch": "None", "branch-level": "None"},
+    {"result": "(cosA+cosB)^2 = 1", "step": 2, "score": 2, "branch": "None", "branch-level": "None"},
+    {"result": "(cosA)^2+(cosB)^2+2cosAcosB-2sinAsinB = 1-2sinAsinB", "step": 3, "score": 3, "branch": "None", "branch-level": "None"},
+    {"result": "2(cosAcosB-sinAsinB) = -2sinAsinB + (1-(cosA)^2) + (1-(cosB)^2) - 1", "step": 4, "score": 4, "branch": "None", "branch-level": "None"},
+    {"result": "cosAcosB-sinAsinB = ((sinA)^2+(sinB)^2 - 2sinAsinB - 1)/2 = (t^2 - 1)/2", "step": 5, "score": 5, "branch": "None", "branch-level": "None"},
+    {"result": "cosAcosB-sinAsinB = cos(A+B)", "step": 6, "score": 6, "branch": "None", "branch-level": "None"},
+    {"result": "1-<=cos(A+B)<=1", "step": 7, "score": 7, "branch": "None", "branch-level": "None"},
+    {"result": "-\\sqrt(3)<=t<=\\sqrt(3)", "step": 8, "score": 8, "branch": "None", "branch-level": "None"}
+  ],
+  "result": "-\\sqrt(3)<=(sinA - sin)<=\\sqrt(3)"
+}

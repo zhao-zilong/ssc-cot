@@ -1,0 +1,22 @@
+{
+  "question": "It is known that the real number A satisfies: sinA(cosA)^4 + 1 = 2sinA, then what is the value of cosA - tanA?",
+  "intermediate-results": [
+    {"result": "cosA - tanA = ((cosA)^2 - sinA)/cosA", "step": 1, "score": 1, "branch": "None", "branch-level": "None"},
+    {"result": "sinA != 0, (cosA)^4 + 1/sinA = 2", "step": 2, "score": 2, "branch": "None", "branch-level": "None"},
+    {"result": "1 - 1/sinA = (cosA)^4 - 1", "step": 3, "score": 3, "branch": 1, "branch-level": 1},
+    {"result": "(cosA)^4 - 1 = ((cosA)^2 - 1)((cosA)^2 + 1)", "step": 4, "score": 3, "branch": 2, "branch-level": 1},
+    {"result": "((cosA)^2 - 1)((cosA)^2 + 1) = -(sinA)^2((cosA)^2 + 1)", "step": 5, "score": 5, "branch": "None", "branch-level": "None"},
+    {"result": "(cosA)^2 + 1 = (1-sinA)(sinA)^3", "step": 6, "score": 6, "branch": "None", "branch-level": "None"},
+    {"result": "(1-sinA)(sinA)^3 = ((sinA)^2 + cos(A)^2 - sinA)(sinA)^3", "step": 7, "score": 7, "branch": "None", "branch-level": "None"},
+    {"result": "((sinA)^2 + cos(A)^2 - sinA)(sinA)^3 = 1/sinA + (cos(A)^2 - sinA)(sinA)^3", "step": 8, "score": 8, "branch": "None", "branch-level": "None"},
+    {"result": "(cosA)^2 + 1 - 1/sinA = (cosA)^2 + 1 - (2 - (cosA)^4)", "step": 9, "score": 9, "branch": "None", "branch-level": "None"},
+    {"result": "(cosA)^2 + 1 - (2 - (cosA)^4) = (cosA)^4 + (cosA)^2 - 1", "step": 10, "score": 10, "branch": "None", "branch-level": "None"},
+    {"result": "(cosA)^4 + (cosA)^2 - 1 = (cosA)^4 - (sinA)^2", "step": 11, "score": 11, "branch": "None", "branch-level": "None"},
+    {"result": "(cosA)^4 - (sinA)^2 = ((cosA)^2 + sinA)((cosA)^2 - sinA)", "step": 12, "score": 12, "branch": "None", "branch-level": "None"},
+    {"result": "((cosA)^2 - sinA)((cosA)^2 + sinA - 1/(sinA)^3)", "step": 13, "score": 13, "branch": "None", "branch-level": "None"},
+    {"result": "(cosA)^2sinA + (sinA)^2 <= (cosA)^2 + (sinA)^2 = 1 <= 1/(sinA)^2", "step": 14, "score": 14, "branch": "None", "branch-level": "None"},
+    {"result": "sinA != 1, ((cosA)^2 + sinA - 1/(sinA)^3) != 0", "step": 15, "score": 15, "branch": "None", "branch-level": "None"},
+    {"result": "(cosA)^2 - sinA = 0", "step": 16, "score": 16, "branch": "None", "branch-level": "None"}
+  ],
+  "result": "0"
+}

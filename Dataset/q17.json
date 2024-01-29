@@ -1,0 +1,12 @@
+{
+  "question": "The opposite sides of interior angles A, B, and C of triangle ABC are a, b, and c respectively. If area of ABC is (a^2+b^2-c^2)/4, then find the value of angle C.",
+  "intermediate-results": [
+    {"result": "area of ABC = 1/2ab(sinC) = (a^2+b^2-c^2)/4", "step": 1, "score": 1, "branch": "None", "branch-level": "None"},
+    {"result": "a^2+b^2-c^2 = 2ab(cosC)", "step": 2, "score": 2, "branch": "None", "branch-level": "None"},
+    {"result": "2ab(sinC) = 2ab(cosC)", "step": 3, "score": 3, "branch": "None", "branch-level": "None"},
+    {"result": "sinC = cosC", "step": 4, "score": 4, "branch": "None", "branch-level": "None"},
+    {"result": "tanC = 1", "step": 5, "score": 5, "branch": "None", "branch-level": "None"},
+    {"result": "C = \\pi/4", "step": 6, "score": 6, "branch": "None", "branch-level": "None"}
+  ],
+  "result": "\\pi/4"
+}

@@ -1,0 +1,13 @@
+{
+  "question": "If sinA + (sinA)^2 = 1 and a(cosA)^12 + b(cosA)^10 + c(cosA)^8 + d(cosA)^6 - 1 = 0, then what are the value of a, b, c and d?",
+  "intermediate-results": [
+    {"result": "sinA = 1- (sinA)^2", "step": 1, "score": 1, "branch": "None", "branch-level": "None"},
+    {"result": "sinA = (cosA)^2", "step": 2, "score": 2, "branch": "None", "branch-level": "None"},
+    {"result": "(sinA)^2 = (cosA)^4", "step": 3, "score": 3, "branch": "None", "branch-level": "None"},
+    {"result": "1 - (cosA)^2 = (cosA)^4", "step": 4, "score": 4, "branch": "None", "branch-level": "None"},
+    {"result": "1 = (cosA)^2 + (cosA)^4", "step": 5, "score": 5, "branch": "None", "branch-level": "None"},
+    {"result": "1^3 = ((cosA)^2 + (cosA)^4)^3 = (cosA)^12 + 3(cosA)^10 + 3(cosA)^8 + (cosA)^6", "step": 6, "score": 6, "branch": "None", "branch-level": "None"},
+    {"result": "a = 1, b = 3, c = 3, d = 1", "step": 7, "score": 6, "branch": "None", "branch-level": "None"}
+  ],
+  "result": "a = 1, b = 3, c = 3, d = 1"
+}

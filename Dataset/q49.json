@@ -1,0 +1,14 @@
+{
+  "question": "Find the value of (sin7 + cos15sin8)/(cos7 - sin15sin8).",
+  "intermediate-results": [
+    {"result": "7 = 15 - 8", "step": 1, "score": 1, "branch": "None", "branch-level": "None"},
+    {"result": "(sin7 + cos15sin8)/(cos7 - sin15sin8) = (sin(15-8) + cos15sin8)/(cos(15-8) - sin15sin8)", "step": 2, "score": 2, "branch": "None", "branch-level": "None"},
+    {"result": "(sin(15-8) + cos15sin8)/(cos(15-8) - sin15sin8) = (sin15cos8 - cos15sin8 + cos15sin8)/(cos15cos8 + sin15sin8 - sin15sin8)", "step": 3, "score": 3, "branch": "None", "branch-level": "None"},
+    {"result": "(sin15cos8 - cos15sin8 + cos15sin8)/(cos15cos8 + sin15sin8 - sin15sin8) = sin15cos8/(cos15cos8)", "step": 4, "score": 4, "branch": "None", "branch-level": "None"},
+    {"result": "sin15cos8/(cos15cos8) = tan15", "step": 5, "score": 5, "branch": "None", "branch-level": "None"},
+    {"result": "tan15 = tan(45-30)", "step": 6, "score": 6, "branch": "None", "branch-level": "None"},
+    {"result": "tan(45-30) =  (tan45 + tan30)/(1-tan45tan30)", "step": 7, "score": 7, "branch": "None", "branch-level": "None"},
+    {"result": "(tan45 + tan30)/(1-tan45tan30) = 2-\\sqrt(3)", "step": 8, "score": 8, "branch": "None", "branch-level": "None"}
+  ],
+  "result": "2-\\sqrt(3)"
+}

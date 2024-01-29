@@ -1,0 +1,11 @@
+{
+  "question": "If A + B + C = \\pi, prove that sinA + sinB + sinC = 4cos(A/2)cos(B/2)cos(C/2)",
+  "intermediate-results": [
+    {"result": "sinA + sinB = 2sin((A+B)/2)cos((A-B)/2)", "step": 1, "score": 1, "branch": 1, "branch-level": 1},
+    {"result": "sinC = 2sin(C/2)cos(C/2)", "step": 2, "score": 1, "branch": 2, "branch-level": 1},
+    {"result": "sinA + sinB + sinC = 2cos(C/2)(cos((A-B)/2) + sin(C/2))", "step": 3, "score": 3, "branch": "None", "branch-level": "None"},
+    {"result": "2cos(C/2)(cos((A-B)/2) + sin(C/2)) = 2cos(C/2)(cos((A-B)/2) + cos((A+B)/2))", "step": 4, "score": 4, "branch": "None", "branch-level": "None"},
+    {"result": "2cos(C/2)(cos((A-B)/2) + cos((A+B)/2)) = 2cos(C/2)2cos(A/2)cos(B/2) = 4cos(A/2)cos(B/2)cos(C/2)", "step": 5, "score": 5, "branch": "None", "branch-level": "None"}
+  ],
+  "result": "Q.E.D"
+}

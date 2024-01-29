@@ -1,0 +1,18 @@
+{
+  "question": "If cosA = tanB, cosB = tanC, cosC = tanA, prove that (sinA)^2 = (sinB)^2 = (sinC)^2 = 4(sin18)^2 given that sin(18) = (\\sqrt(5) - 1)/4.",
+  "intermediate-results": [
+    {"result": "let x = (sinA)^2, then (cosA)^2 = 1 - x, (tanA)^2 = x/(1-x)", "step": 1, "score": 1, "branch": "None", "branch-level": "None"},
+    {"result": "1 - x = (cosA)^2 = (tanB)^2", "step": 2, "score": 2, "branch": "None", "branch-level": "None"},
+    {"result": "(tanB)^2 = 1/(cosB)^2 - 1", "step": 3, "score": 3, "branch": "None", "branch-level": "None"},
+    {"result": "1/(cosB)^2 - 1 = 1/(tanC)^2 - 1", "step": 4, "score": 4, "branch": "None", "branch-level": "None"},
+    {"result": "1/(tanC)^2 - 1 = 1/(1/(cosC)^2 - 1) - 1", "step": 5, "score": 5, "branch": "None", "branch-level": "None"},
+    {"result": "1/(1/(cosC)^2 - 1) - 1 = 1/(1/(tanA)^2 - 1) - 1", "step": 6, "score": 6, "branch": "None", "branch-level": "None"},
+    {"result": "1/(1/(tanA)^2 - 1) - 1 = 1/((1-x)/x - 1) - 1", "step": 7, "score": 7, "branch": "None", "branch-level": "None"},
+    {"result": "1/((1-x)/x - 1) - 1 = (3x-1)/(1-2x)", "step": 8, "score": 8, "branch": "None", "branch-level": "None"},
+    {"result": "(1-x)(1-2x) = 3x - 1", "step": 9, "score": 9, "branch": "None", "branch-level": "None"},
+    {"result": "0<= x = (sinA)^2 <= 1, (sinA)^2 = x = (3-\\sqrt(5))/2", "step": 10, "score": 10, "branch": "None", "branch-level": "None"},
+    {"result": "4(sin18)^2 = (3-\\sqrt(5))/2", "step": 11, "score": 11, "branch": "None", "branch-level": "None"},
+    {"result": "Similarly, (sinB)^2 = (sinC)^2 = 4(sin18)^2", "step": 12, "score": 12, "branch": "None", "branch-level": "None"}
+  ],
+  "result": "Q.E.D"
+}

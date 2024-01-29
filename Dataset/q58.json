@@ -1,0 +1,11 @@
+{
+  "question": "Prove (cosA)^2/(1-tanA) + (sinA)^3/(sinA - cosA) = 1 + sinAcosA",
+  "intermediate-results": [
+    {"result": "(cosA)^2/(1-tanA) + (sinA)^3/(sinA - cosA) = (cosA)^2/(1-sinA/cosA) + (sinA)^3/(sinA - cosA)", "step": 1, "score": 1, "branch": "None", "branch-level": "None"},
+    {"result": "(cosA)^2/(1-sinA/cosA) + (sinA)^3/(sinA - cosA) = (cosA)^3/(cosA - sinA) - (sinA)^3/(cosA-sinA)", "step": 2, "score": 2, "branch": "None", "branch-level": "None"},
+    {"result": "(cosA)^3/(cosA - sinA) - (sinA)^3/(cosA-sinA) = ((cosA)^3 - (sinA)^3)/(cosA - sinA)", "step": 3, "score": 3, "branch":"None", "branch-level": "None"},
+    {"result": "((cosA)^3 - (sinA)^3)/(cosA - sinA) = (cosA-sinA)((cosA)^2 + sinAcosA + (sinA)^2)/(cosA - sinA)", "step": 4, "score": 4, "branch": "None", "branch-level": "None"},
+    {"result": " (cosA-sinA)((cosA)^2 + sinAcosA + (sinA)^2)/(cosA - sinA) = 1+sinAcosA", "step": 5, "score": 5, "branch": "None", "branch-level": "None"}
+  ],
+  "result": "Q.E.D"
+}

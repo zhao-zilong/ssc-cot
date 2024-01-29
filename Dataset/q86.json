@@ -1,0 +1,12 @@
+{
+  "question": "Assume that the lengths of the sides opposite to the three interior angles A, B, and C of triangle ABC are a, b, and c respectively. If b=\\sqrt(2), c=2, and (\\sqrt(3)sinA+cosA)/(\\sqrt(3)cosA-sinA) = tan(5\\pi /12), then find the length of a?",
+  "intermediate-results": [ 
+    {"result": "(2sin(A+\\pi/6)/(2cos(A+\\pi/6)) = tan(5\\pi /12)", "step": 1, "score": 1, "branch": "None", "branch-level": "None"},
+    {"result": "tan(A+\\pi/6) = tan(5\\pi/12)", "step": 2, "score": 2, "branch": "None", "branch-level": "None"},
+    {"result": "A+\\pi/6 = 5\\pi/12 + k\\pi where k belongs to integer set.", "step": 3, "score": 3, "branch": "None", "branch-level": "None"},
+    {"result": "0<A<\\pi, A = \\pi/4", "step": 4, "score": 4, "branch": "None", "branch-level": "None"},
+    {"result": "a^2 = b^2 + c^2 - 2bccos(A) = (\\sqrt(2))^2 + 2^2 - 2\\sqrt(2)2cos(\\pi/4) = 2", "step": 5, "score": 5, "branch": "None", "branch-level": "None"},
+    {"result": "a = \\sqrt(2)", "step": 6, "score": 6, "branch": "None", "branch-level": "None"}
+  ],
+  "result": "\\sqrt(2)"
+}

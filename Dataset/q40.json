@@ -1,0 +1,10 @@
+{
+  "question": "If f(A) = asin(A+\\pi/3) + bcos(A-\\pi/3) is an even function, ab != 0, then the relationship satisfied by a and b is?",
+  "intermediate-results": [
+    {"result": "f'(A) = acos(A + \\pi/3) - bsin(x - \\pi/3)", "step": 1, "score": 1, "branch": 1, "branch-level": 1},
+    {"result": "f'(A) is odd function", "step": 2, "score": 1, "branch": 2, "branch-level": 1},
+    {"result": "f'(0) = 0", "step": 3, "score": 2, "branch": 2, "branch-level": 1},
+    {"result": "a*1/2 + b*\\sqrt(3)/2 = 0", "step": 4, "score": 4, "branch": "None", "branch-level": "None"}
+  ],
+  "result": "a + b*\\sqrt(3) = 0"
+}

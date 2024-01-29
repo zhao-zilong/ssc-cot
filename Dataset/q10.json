@@ -1,0 +1,13 @@
+{
+  "question": "tanA = 2tan(\\pi/5), find the  value of cos(A - 3\\pi/10)/sin(A - \\pi/5).",
+  "intermediate-results": [
+    {"result": "3\\pi/10 + \\pi/5 = \\pi/2", "step": 1, "score": 1, "branch": "None", "branch-level": "None"},
+    {"result": "cos(A - 3\\pi/10)/sin(A - \\pi/5) = cos(A + \\pi/5 - \\pi/2)/sin(A - \\pi/5)", "step": 2, "score": 2, "branch": "None", "branch-level": "None"},
+    {"result": "cos(A + \\pi/5 - \\pi/2)/sin(A - \\pi/5) = sin(A + \\pi/5)/sin(A - \\pi/5)", "step": 3, "score": 3, "branch": "None", "branch-level": "None"},
+    {"result": "sin(A + \\pi/5)/sin(A - \\pi/5) = (sin(A)cos(\\pi/5) + cos(A)sin(\\pi/5))/(sin(A)cos(\\pi/5) - cos(A)sin(\\pi/5))", "step": 4, "score": 4, "branch": "None", "branch-level": "None"},
+    {"result": "(sin(A)cos(\\pi/5) + cos(A)sin(\\pi/5))/(sin(A)cos(\\pi/5) - cos(A)sin(\\pi/5)) = (tan(A) + tan(\\pi/5))/(tan(A) - tan(\\pi/5))", "step": 5, "score": 5, "branch": "None", "branch-level": "None"},
+    {"result": "(tan(A) + tan(\\pi/5))/(tan(A) - tan(\\pi/5)) = (2tan(\\pi/5) + tan(\\pi/5))/(wtan(\\pi/5) - tan(\\pi/5))", "step": 6, "score": 6, "branch": "None", "branch-level": "None"},
+    {"result": "(2tan(\\pi/5) + tan(\\pi/5))/(wtan(\\pi/5) - tan(\\pi/5)) = 3tan(\\pi/5)/tan(\\pi/5) = 3", "step": 7, "score": 7, "branch": "None", "branch-level": "None"}
+  ],
+  "result": "3"
+}

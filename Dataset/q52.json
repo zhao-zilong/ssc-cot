@@ -1,0 +1,12 @@
+{
+  "question": "If A + B + C = \\pi, prove that tan(A/2)tan(B/2) + tan(B/2)tan(C/2) + tan(C/2)tan(A/2) = 1",
+  "intermediate-results": [
+    {"result": "(A+B+C)/2 = \\pi/2", "step": 1, "score": 1, "branch": "None", "branch-level": "None"},
+    {"result": "A/2 + B/2 = \\pi/2 - C/2", "step": 2, "score": 2, "branch": "None", "branch-level": "None"},
+    {"result": "tan(A/2 + B/2) = tan(\\pi/2 - C/2)", "step": 3, "score": 3, "branch": "None", "branch-level": "None"},
+    {"result": "(tan(A/2) + tan(B/2))/(1 - tan(A/2)tan(B/2)) = cot(C/2) = 1/(tan(C/2))", "step": 4, "score": 4, "branch": "None", "branch-level": "None"},
+    {"result": "tan(A/2)tan(C/2) + tan(B/2)tan(C/2) = 1 - tan(A/2)tan(B/2)", "step": 5, "score": 5, "branch": "None", "branch-level": "None"},
+    {"result": "tan(A/2)tan(C/2) + tan(B/2)tan(C/2) + tan(A/2)tan(B/2) = 1", "step": 6, "score": 6, "branch": "None", "branch-level": "None"}
+  ],
+  "result": "Q.E.D"
+}

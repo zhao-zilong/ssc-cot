@@ -1,0 +1,15 @@
+{
+  "question": "In triangle ABC, the opposite sides of angles A, B, and C are a, b, and c respectively. (2c - b)/a = cosB/cosA and a = 2\\sqrt(5). Find the maximum value of area of ABC.",
+  "intermediate-results": [
+    {"result": "(2sinC - sinB)/sinA = cosB/cosA", "step": 1, "score": 1, "branch": "None", "branch-level": "None"},
+    {"result": "2sinCcosA - sinBcosA = sinAcosB", "step": 2, "score": 2, "branch": "None", "branch-level": "None"},
+    {"result": "2sinCcosA = sin(A+B)", "step": 3, "score": 3, "branch": "None", "branch-level": "None"},
+    {"result": "sin(A+B) = sin(\\pi - C) = sinC", "step": 4, "score": 4, "branch":"None", "branch-level": "None"},
+    {"result": "sinC != 0, cosA = 1/2", "step": 5, "score": 5, "branch": "None", "branch-level": "None"},
+    {"result": "cosA = (b^2+c^2 - a^2)/(2bc) = 1/2", "step": 6, "score": 6, "branch": "None", "branch-level": "None"},
+    {"result": "b^2+c^2 - 20 = bc >=2bc - 20", "step": 7, "score": 7, "branch": "None", "branch-level": "None"},
+    {"result": "bc <= 20", "step": 8, "score": 8, "branch": "None", "branch-level": "None"},
+    {"result": "area of ABC = 1/2bcsinA = \\sqrt(3)/4bc <= 5\\sqrt(3)", "step": 9, "score": 9, "branch": "None", "branch-level": "None"}
+  ],
+  "result": "5\\sqrt(3)"
+}

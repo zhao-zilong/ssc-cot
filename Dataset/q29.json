@@ -1,0 +1,14 @@
+{
+  "question": "Find the value of sin(1)sin(2)sin(3)...sin(90)",
+  "intermediate-results": [
+    {"result": "sin(1)sin(2)sin(3)...sin(90) = (sin1sin59sin61)(sin2sin58sin62)...(sin29sin31sin89)", "step": 1, "score": 1, "branch": "None", "branch-level": "None"},
+    {"result": "since sin59sin61 = sin(60-1)sin(60+1), (sin1sin59sin61)(sin2sin58sin62)...(sin29sin31sin89) = 1/4sin3*1/4sin6*1/4sin9......1/4sin87*1/2*\\sqrt(3)/2*1", "step": 2, "score": 2, "branch": "None", "branch-level": "None"},
+    {"result": "1/4sin3*1/4sin6*1/4sin9......1/4sin87*1/2*\\sqrt(3)/2*1 = \\sqrt(3)/4^30*\\sqrt(3)/4^10*sin9sin18sin27......sin81", "step": 3, "score": 3, "branch": 1, "branch-level": 1},
+    {"result": "\\sqrt(3)/4^30*\\sqrt(3)/4^10*sin9sin18sin27......sin81 = 3/4^40*sin45(sin9cos9)(sin18cos18)......(sin36cos36)", "step": 4, "score": 3, "branch": 2, "branch-level": 1},
+    {"result": "3/4^40*sin45(sin9cos9)(sin18cos18)......(sin36cos36) = 3/4^40*\\sqrt(2)/2*1/16sin18sin36si54sin72", "step": 5, "score": 5, "branch": "None", "branch-level": "None"},
+    {"result": "3/4^40*\\sqrt(2)/2*1/16sin18sin36si54sin72 = 3/4^40*\\sqrt(2)/2*1/16*1/4sin36sin72", "step": 6, "score": 6, "branch": "None", "branch-level": "None"},
+    {"result": "3/4^40*\\sqrt(2)/2*1/16*1/4sin36sin72 = 3\\sqrt(2)/x^87*\\sqrt(5)/4", "step": 7, "score": 7, "branch": "None", "branch-level": "None"},
+    {"result": "3\\sqrt(2)/x^87*\\sqrt(5)/4 = 3\\sqrt(10)/2^89", "step": 8, "score": 8, "branch": "None", "branch-level": "None"}
+  ],
+  "result": "3\\sqrt(10)/2^89"
+}

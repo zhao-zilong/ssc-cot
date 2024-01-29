@@ -1,0 +1,15 @@
+{
+  "question": "In acute triangle ABC, prove that cos(B-C)cos(C-A)cos(A-B) >= 8cosAcosBcosC",
+  "intermediate-results": [
+    {"result": "cos(B-C)cos(C-A)cos(A-B)/(cosAcosBcosC) >= 8", "step": 1, "score": 1, "branch": 1, "branch-level": 1},
+    {"result": "cos(B-C) = sinBsinC + cosBcosC", "step": 2, "score": 2, "branch": 1, "branch-level": 1},
+    {"result": "cosA = cos(\\pi - (B+C)) = -cos(B+C)", "step": 3, "score": 1, "branch": 2, "branch-level": 2},
+    {"result": "-cos(B+C) = sinBsinC - cosBcosC", "step": 4, "score": 2, "branch": 2, "branch-level": 2},
+    {"result": "cos(B-C)/cos(A) = (sinBsinC + cosBcosC)/(sinBsinC - cosBcosC) = (tanBtanC + 1)/(tanBtanC - 1)", "step": 5, "score": 5, "branch": "None", "branch-level": "None"},
+    {"result": "(tanBtanC + 1)/(tanBtanC - 1) = tanA(tanBtanC + 1)/tanA(tanBtanC - 1)", "step": 6, "score": 6, "branch": "None", "branch-level": "None"},
+    {"result": "Because tanA + tanB + tanC = tanAtanBtanC, tanA(tanBtanC + 1)/tanA(tanBtanC - 1) =  tanA(tanBtanC + 1)/(tanB + tanC)", "step": 7, "score": 7, "branch": "None", "branch-level": "None"},
+    {"result": "let tanA+tanB = x, tanB+tanC = y, tanC+tanA = z, cos(B-C)cos(C-A)cos(A-B)/(cosAcosBcosC) = (z+x)(y+z)(x+y)/(yxz)", "step": 8, "score": 8, "branch": "None", "branch-level": "None"},
+    {"result": "(z+x)(y+z)(x+y)/(yxz) >= 2\\sqrt(zx)*2\\sqrt(yz)*2\\sqrt(zx)/(yxz) = 8", "step": 9, "score": 9, "branch": "None", "branch-level": "None"}
+ ],
+  "result": "Q.E.D"
+} 

@@ -1,0 +1,12 @@
+{
+  "question": "It is known that the function f(A) = 2\\sqrt(3)sin(\\pi - A)sinA - (sinA - cosA)^2. Find the monotonically increasing interval of f(A).",
+  "intermediate-results": [
+    {"result": "2\\sqrt(3)sin(\\pi - A)sinA  = 2\\sqrt(3)(sinA)^2", "step": 1, "score": 1, "branch": 1, "branch-level": 1},
+    {"result": "(sinA - cosA)^2  = 1-sin(2A)", "step": 2, "score": 1, "branch": 2, "branch-level": 1},
+    {"result": "f(A) = 2\\sqrt(3)(sinA)^2 - 1 + sin(2A) = 2\\sqrt(3)(1-cos2A)/2 - 1 + sin(2A)", "step": 3, "score": 3, "branch": "None", "branch-level": "None"},
+    {"result": "f(A) = 2\\sqrt(3)(1-cos2A)/2 - 1 + sin(2A) = 2sin(2A - \\pi/3) + \\sqrt(3) - 1", "step": 4, "score": 4, "branch": "None", "branch-level": "None"},
+    {"result": "given that 2k\\pi - \\pi/2 <= 2A - \\pi/3 <= 2k\\pi + \\pi/2", "step": 5, "score": 5, "branch": "None", "branch-level": "None"},
+    {"result": "k\\pi - \\pi/12 <= A <= k\\pi + 5\\pi/12, k belongs to integer set", "step": 6, "score": 6, "branch": "None", "branch-level": "None"}
+  ],
+  "result": "k\\pi - \\pi/12 <= A <= k\\pi + 5\\pi/12, k belongs to integer set"
+}

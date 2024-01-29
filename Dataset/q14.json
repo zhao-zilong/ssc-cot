@@ -1,0 +1,13 @@
+{
+  "question": "The opposite sides of interior angles A, B, and C of triangle ABC are a, b, and c respectively. It is known that 4a = \\sqrt(5)*c, cosC = 3/5. If b = 11, find the area of ABC.",
+  "intermediate-results": [
+    {"result": "sinC = 4/5", "step": 1, "score": 1, "branch": "None", "branch-level": "None"},
+    {"result": "4sinA = \\sqrt(5)sinC, sinA = \\sqrt(5)/5", "step": 2, "score": 2, "branch": "None", "branch-level": "None"},
+    {"result": "cosC = (a^2 + b^2 - c^2)/(2ab) = (a^2 + 121 - 16a^2/5)/(22a)", "step": 3, "score": 3, "branch": "None", "branch-level": "None"},
+    {"result": "(a^2 + 121 - 16a^2/5)/(22a) = (11 - a^2/5)/(2a) = 3/5", "step": 4, "score": 4, "branch": "None", "branch-level": "None"},
+    {"result": "a^2 + 6a - 55 = 0", "step": 5, "score": 5, "branch": "None", "branch-level": "None"},
+    {"result": "a = 5", "step": 6, "score": 6, "branch": "None", "branch-level": "None"},
+    {"result": "1/2absinC = 1/2*5*11*(4/5) = 22", "step": 7, "score": 7, "branch": "None", "branch-level": "None"}
+  ],
+  "result": "22"
+}

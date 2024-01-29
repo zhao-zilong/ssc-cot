@@ -1,0 +1,14 @@
+{
+  "question": "How many solutions does the equation sin(\\pi/2*cosA) = cos(\\pi/2*sinA) have in the closed interval [0, \\pi].",
+  "intermediate-results": [
+    {"result": "sin(\\pi/2cosA) = cos(\\pi/2 - \\pi/2cosA) = cos(\\pi/2sinA)", "step": 1, "score": 1, "branch": "None", "branch-level": "None"},
+    {"result": "\\pi/2 - \\pi/2cosA belongs to [0, \\pi], \\pi/2sinA belongs to [0, \\pi/2]", "step": 2, "score": 2, "branch": "None", "branch-level": "None"},
+    {"result": "\\pi/2 - \\pi/2cosA =  \\pi/2sinA", "step": 3, "score": 3, "branch": "None", "branch-level": "None"},
+    {"result": "sinA + cosA = 1", "step": 4, "score": 4, "branch": "None", "branch-level": "None"},
+    {"result": "cos(A - \\pi/4) = \\sqrt(2)/2", "step": 5, "score": 5, "branch": "None", "branch-level": "None"},
+    {"result": "A - \\pi/4 = -\\pi/4 + 2\\pi*k or A - \\pi/4 = \\pi/4 + 2\\pi*k where k belongs to integer set", "step": 6, "score": 6, "branch": "None", "branch-level": "None"},
+    {"result": "A = 2\\pi*k or A = \\pi/2+2\\pi*k", "step": 7, "score": 7, "branch": "None", "branch-level": "None"},
+    {"result": "A = 0 or A = \\pi/2", "step": 8, "score": 8, "branch": "None", "branch-level": "None"}
+  ],
+  "result": "2"
+}

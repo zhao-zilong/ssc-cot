@@ -1,0 +1,14 @@
+{
+  "question": "In triangle ABC, the angles A, B, and C correspond to the three sides a, b, and c. If 9a^2 + 9b^2 - 19c^2 = 0, then find the value of cotC/(cotA + cotB)",
+  "intermediate-results": [ 
+    {"result": "cotC/(cotA + cotB) = (cosC/sinC)/(cosA/sinA + cosB/sinB)", "step": 1, "score": 1, "branch": "None", "branch-level": "None"},
+    {"result": "(cosC/sinC)/(cosA/sinA + cosB/sinB) = (cosC/sinC)/((cosAsinB+cosBsinA)/(sinAsinB))", "step": 2, "score": 2, "branch": "None", "branch-level": "None"},
+    {"result": "(cosC/sinC)/((cosAsinB+cosBsinA)/(sinAsinB)) = sinAsinB/((sinC)^2)cosC", "step": 3, "score": 3, "branch": "None", "branch-level": "None"},
+    {"result": "sinAsinB/((sinC)^2)cosC = ab/c^2*(a^2+b^2-c^2)/(2ab)", "step": 4, "score": 4, "branch": "None", "branch-level": "None"},
+    {"result": "ab/c^2*(a^2+b^2-c^2)/(2ab) = (a^2+b^2-c^2)/(2c^2)", "step": 5, "score": 5, "branch": "None", "branch-level": "None"},
+    {"result": "(a^2+b^2-c^2)/(2c^2) = (9a^2+9b^2-9c^2)/(2*9c^2)", "step": 6, "score": 6, "branch": "None", "branch-level": "None"},
+    {"result": "(9a^2+9b^2-9c^2)/(2*9c^2) = (19c^2-9c^2)/(2*9c^2)", "step": 7, "score": 7, "branch": "None", "branch-level": "None"},
+    {"result": "(19c^2-9c^2)/(2*9c^2) = 5/9", "step": 8, "score": 8, "branch": "None", "branch-level": "None"}
+ ],
+  "result": "5/9"
+} 

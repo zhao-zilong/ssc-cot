@@ -1,0 +1,13 @@
+{
+  "question": "Find the value of sin18sin54",
+  "intermediate-results": [
+    {"result": "sin72 = 2sin36cos36", "step": 1, "score": 1, "branch": "None", "branch-level": "None"},
+    {"result": "sin72 = 2sin36cos36", "step": 2, "score": 2, "branch": "None", "branch-level": "None"},
+    {"result": "sin72 = 2sin(18+18)cos(90-54)", "step": 3, "score": 3, "branch": 1, "branch-level": 1},
+    {"result": "sin72 = 2*2sin18cos18sin54", "step": 4, "score": 3, "branch": 2, "branch-level": 1},
+    {"result": "sin72 = 4sin18cos(90-72)sin54", "step": 5, "score": 5, "branch": "None", "branch-level": "None"},
+    {"result": "sin72 = 4sin18sin72sin54", "step": 6, "score": 6, "branch": "None", "branch-level": "None"},
+    {"result": "sin18sin54 = 1/4", "step": 7, "score": 7, "branch": "None", "branch-level": "None"}
+  ],
+  "result": "1/4"
+}

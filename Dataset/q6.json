@@ -1,0 +1,32 @@
+{
+
+  "question": "Find the value of (tan(20))^2 + (tan(40))^2 + (tan(80))^2.",
+  "intermediate-results": [
+    {"result": "(tan(20))^2 + (tan(40))^2 + (tan(80))^2 = (sec(20))^2 - 1 + (sec(40))^2 - 1 + (sec(80))^2 - 1", "step": 1, "score": 1, "branch": "None", "branch-level": "None"},
+    {"result": "(sec(20))^2 - 1 + (sec(40))^2 - 1 + (sec(80))^2 - 1 = 1/(cos(20))^2 + 1/(cos(40))^2 + 1/(cos(80))^2 - 3", "step": 2, "score": 2, "branch": "None", "branch-level": "None"},
+    {"result": "1/(cos(20))^2 + 1/(cos(40))^2 + 1/(cos(80))^2 - 3 = ((cos40)^2(cos80)^2 + (cos20)^2(cos80)^2 + (cos20)^2(cos40)^2)/((cos20)^2(cos40)^2(cos80)^2)", "step": 3, "score": 3, "branch": "None", "branch-level": "None"},
+    {"result": "((cos40)^2(cos80)^2 + (cos20)^2(cos80)^2 + (cos20)^2(cos40)^2) = ((cos40cos80)^2 + (cos20cos80)^2 + (cos20cos40)^2)", "step": 4, "score": 4, "branch": 1, "branch-level": 1},
+    {"result": "((cos40cos80)^2 + (cos20cos80)^2 + (cos20cos40)^2) = ((1/2(cos120 + cos40))^2 + (1/2(cos100 + cos60))^2 + (1/2(cos60 + cos20))^2)", "step": 5, "score": 5, "branch": 1, "branch-level": 1},
+    {"result": "((1/2(cos120 + cos40))^2 + (1/2(cos100 + cos60))^2 + (1/2(cos60 + cos20))^2) = 1/4(-1/2 + cos40)^2 + 1/4(cos100 + 1/2)^2 + 1/4(1/2 + cos20)^2", "step": 6, "score": 6, "branch": 1, "branch-level": 1},
+    {"result": "1/4(-1/2 + cos40)^2 + 1/4(cos100 + 1/2)^2 + 1/4(1/2 + cos20)^2 = 1/4(3/4 + cos20 + cos100 - cos40 + (cos20)^2+ (cos40)^2+ (cos100)^2)", "step": 7, "score": 7, "branch": 1, "branch-level": 1},
+    {"result": "1/4(3/4 + cos20 + cos100 - cos40 + (cos20)^2+ (cos40)^2+ (cos100)^2) = 1/4(3/4 + 2cos60cos40 - cos40 + (cos20)^2+ (cos40)^2+ (cos100)^2)", "step": 8, "score": 8, "branch": 1, "branch-level": 1},
+    {"result": "1/4(3/4 + 2cos60cos40 - cos40 + (cos20)^2+ (cos40)^2+ (cos100)^2) = 1/4(3/4 + cos40 - cos40 + (cos40+1)/2+ (cos80+1)/2 + (cos200+1)/2)", "step": 9, "score": 9, "branch": 1, "branch-level": 1},
+    {"result": "1/4(3/4 + cos40 - cos40 + (cos40+1)/2+ (cos80+1)/2 + (cos200+1)/2) = 1/4(3/4 + 1/2(3 + cos40 + cos80 + cos200))", "step": 10, "score": 10, "branch": 1, "branch-level": 1},
+    {"result": "1/4(3/4 + 1/2(3 + cos40 + cos80 + cos200)) = 1/4(3/4 + 1/2(3 + 2cos120cos80 + cos80))", "step": 11, "score": 11, "branch": 1, "branch-level": 1},
+    {"result": "1/4(3/4 + 1/2(3 + 2cos120cos80 + cos80)) = 9/16", "step": 12, "score": 12, "branch": 1, "branch-level": 1},
+    {"result": "((cos20)^2(cos40)^2(cos80)^2) = 1/8(cos40+1)(cos80+1)(cos160+1)", "step": 13, "score": 3, "branch": 2, "branch-level": 1},
+    {"result": "1/8(cos40+1)(cos80+1)(cos160+1) = 1/8((1/2(cos120+cos40) + 2cos60cos20 + 1)(cos160+1))", "step": 14, "score": 3, "branch": 2, "branch-level": 1},
+    {"result": "1/8((1/2(cos120+cos40) + 2cos60cos20 + 1)(cos160+1)) = 1/8((1/2(cos40 - 1/2) + cos20 + 1)(cos160+1))", "step": 15, "score": 4, "branch": 2, "branch-level": 1},
+    {"result": "1/8((1/2(cos40 - 1/2) + cos20 + 1)(cos160+1)) = 1/8(1/2cos40 - 1/4 + cos20 + 1)(cos(180-20)+1))", "step": 16, "score": 5, "branch": 2, "branch-level": 1},
+    {"result": "1/8(1/2cos40 - 1/4 + cos20 + 1)(cos(180-20)+1)) = 1/8(1/2cos40 + cos20 + 3/4)(-cos20+1))", "step": 17, "score": 6, "branch": 2, "branch-level": 1},
+    {"result": "1/8(1/2cos40 + cos20 + 3/4)(-cos20+1)) = 1/8(-(cos20cos40)/2 + (cos40)/2 - 3(cos20)/4 + 3/4 - (cos20)^2 + cos20)", "step": 18, "score": 7, "branch": 2, "branch-level": 1},
+    {"result": "1/8(-(cos20cos40)/2 + (cos40)/2 - 3(cos20)/4 + 3/4 - (cos20)^2 + cos20) = 1/8(-(cos60 + cos20)/4 + (cos40)/2 + (cos20)/4 + 3/4 - (cos40 + 1)/2)", "step": 19, "score": 8, "branch": 2, "branch-level": 1},
+    {"result": "1/8(-(cos60 + cos20)/4 + (cos40)/2 + (cos20)/4 + 3/4 - (cos40 + 1)/2) = 1/8(-1/8 - (cos20)/4 + (cos40)/2 + (cos20)/4 + 3/4 - (cos40)/2 - 1/2)", "step": 20, "score": 9, "branch": 2, "branch-level": 1},
+    {"result": "1/8(-1/8 - (cos20)/4 + (cos40)/2 + (cos20)/4 + 3/4 - (cos40)/2 - 1/2) = 1/64", "step": 21, "score": 10, "branch": 2, "branch-level": 1},
+    {"result": "(tan(20))^2 + (tan(40))^2 + (tan(80))^2 = (9/16)/(1/64) - 3 = 33", "step": 22, "score": 22, "branch": "None", "branch-level": "None"}
+    ],
+  "url": "http://masteringolympiadmathematics.blogspot.com/2015/05/olympiad-trigonometry-problem.html",
+  "result": "33"
+
+
+}
