@@ -1,5 +1,8 @@
 # SSC-CoT 
-The code is for paper "Stepwise Self-Consistent Mathematical Reasoning with Large Language Models" submission. 
+The code is for paper [Stepwise Self-Consistent Mathematical Reasoning with Large Language Models](https://arxiv.org/pdf/2402.17786.pdf). 
+
+
+![teaser](figure/teaser.png)
 
 ## Prerequisite
 
