@@ -1,0 +1,19 @@
+head,action,tail
+vertical asymptotes,belongs to,"To determine the vertical asymptotes of a rational function, all you need to do is to set the denominator equal to zero and solve. "
+radius,belongs to,The formulas for area of a circle are \pi*r^2 where \pi is approximately 3.14 and r is the radius of the circle.
+vertex form of a quadratic function,means,"The vertex of a quadratic function is the vertex of the graph of that function. Given a quadratic function in vertex form, f(x) = a(x-h)^2+k, the vertex is located at the point (h,k)."
+distance between two points formula,means,"The formula to find the distance between the two points (x1,y1) and (x2,y2) is \sqrt((x2-x1)^2 + (y2-y1)^2)"
+equilateral triangle,means,An equilateral triangle is a triangle in which all three sides have the same length
+rational function,means,"A rational function is any function that can be defined by a rational fraction, which is an algebraic fraction such that both the numerator and the denominator are polynomials"
+vertex of the parabola,belongs to,"The vertex of a quadratic function is the vertex of the graph of that function. Given a quadratic function in vertex form, f(x) = a(x-h)^2+k, the vertex is located at the point (h,k)."
+vertex of the graph,belongs to,"The vertex of a quadratic function is the vertex of the graph of that function. Given a quadratic function in vertex form, f(x) = a(x-h)^2+k, the vertex is located at the point (h,k)."
+circle,belongs to,"The general equation for a circle is (x - h)^2 + (y - k)^2 = r^2, where (h, k) represents the center of the circle, r is the radius, and x and y form the coordinates of all the points on the circle's perimeter."
+roots of the quadratic equation,belongs to,"For a given quadratic equation ax^2 + bx + c = 0, its roots are x = (-b +/- \sqrt(b^2 - 4ac))/(2a)"
+arithmetic sequence,means,"For arithmetic sequence a,b and c,  they satisfy a - b = b - c, 2b = a + c"
+inverse function,belongs to,"If f(x) is its own inverse function, which means f(f(x)) = x"
+geometric sequence,means,"For geometric sequence or geometric series a,b and c,  they satisfy a/b = b/c, b^2 = ac"
+triangular number,means,The n-th triangular number is given by the following explicit formulas: n(n+1)/2
+relatively prime,belongs to,Two integers are relatively prime or Coprime when there are no common factors other than 1
+coprime,belongs to,Two integers are relatively prime or Coprime when there are no common factors other than 1
+harmonic mean,means,The harmonic mean of two positive integers a and b is defined as: (2ab)/(a+b)
+geometric series,means,"For geometric sequence or geometric series a,b and c,  they satisfy a/b = b/c, b^2 = ac"
